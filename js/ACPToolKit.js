@@ -109,8 +109,11 @@ var ACPToolKit = (function () {
             // Highlight the relevant text.
             iface.addEventListener('loaded', function () {
                 var lines_to_highlight = stimuli.split("\n\n");
-console.log(lines_to_highlight);
+
                 var windows = wm.getWindowList();
+
+console.log(lines_to_highlight);
+console.log(windows);
                 for (var i = 0; i < windows.length; i++) {
                     if (windows[i] == 'text_editor') {
                         continue;
