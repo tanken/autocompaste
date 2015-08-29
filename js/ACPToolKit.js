@@ -113,7 +113,7 @@ var ACPToolKit = (function () {
                 var windows = wm.getWindowList();
 
 console.log(lines_to_highlight);
-console.log(windows);
+console.log(lines_to_highlight.length);
                 for (var i = 0; i < windows.length; i++) {
                     if (windows[i] == 'text_editor') {
                         continue;
@@ -125,9 +125,7 @@ console.log(windows);
                     lines_to_highlight.map (function (value, index, array) {
                         content = content.replace (value,
                         "<span class=\"highlighted\">" + value + "</span>");
-console.log("new " +content);
                     });
-console.log(lines_to_highlight);
                   $(win).find('pre').empty().append(content);
                 }
             });

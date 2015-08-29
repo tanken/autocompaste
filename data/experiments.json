@@ -10,7 +10,7 @@
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
+            "stimuli": "What is AC coupling? ... Circuit that passes an AC signal while blocking a DC voltage." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -28,7 +28,7 @@
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
+            "stimuli": "What is AC coupling?" 
         },
         { 
             "technique": "TRADITIONAL", 
