@@ -121,13 +121,13 @@ console.log(windows);
 
                     var win = wm.getWindowContent(windows[i]);
                     var content = $(win).find('pre').html();
-console.log("win "+win);                    
-console.log("content "+content);
+
                     lines_to_highlight.map (function (value, index, array) {
                         content = content.replace (value,
                         "<span class=\"highlighted\">" + value + "</span>");
+console.log("new " +content);
                     });
-
+console.log(lines_to_highlight);
                   $(win).find('pre').empty().append(content);
                 }
             });
