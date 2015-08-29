@@ -22,7 +22,7 @@
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?" 
+            "stimuli": "What is acceptor atoms? \n\n Aviation electronics" 
         },
         { 
             "technique": "TRADITIONAL", 
