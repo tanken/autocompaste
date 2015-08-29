@@ -4,7 +4,7 @@
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?" 
+            "stimuli": "What is acceptor atoms? Aviation electronics" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -22,7 +22,7 @@
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?" 
+            "stimuli": "What is acceptor atoms? Aviation electronics" 
         },
         { 
             "technique": "TRADITIONAL", 
