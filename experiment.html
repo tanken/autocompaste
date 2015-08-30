@@ -134,6 +134,7 @@ console.log("half  " + halfway);
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
                 } else if(currentTrial == halfway) { 
+console.log("YAYYYYYYYY");
                     // Launch MODAL BOX
                     $('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
                     ACPToolKit.presentTrial(trialsData[currentTrial]);

@@ -107,7 +107,7 @@
 			);
 },getDimensions:function(){
 	var el=$(window);
-	var h=$.browser.opera&&$.browser.version>'9.5'&&$.fn.jquery<='1.2.6'?document.documentElement['clientHeight']:el.height();
+	//var h=$.browser.opera&&$.browser.version>'9.5'&&$.fn.jquery<='1.2.6'?document.documentElement['clientHeight']:el.height();
 	return[h,el.width()];},setPosition:function(){
 		var top,left,hCenter=(w[0]/2)-((this.dialog.container.height()||this.dialog.data.height())/2),vCenter=(w[1]/2)-((this.dialog.container.width()||this.dialog.data.width())/2);
 		if(this.opts.position&&this.opts.position.constructor==Array){top=this.opts.position[0]||hCenter;
