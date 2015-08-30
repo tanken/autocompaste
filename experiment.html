@@ -102,6 +102,8 @@
             var pid;
 
             function next () {
+                var halfway = +(totalNumberOfTrials/2)-1;
+                
                 if (currentTrial !== 0) {
                     var trialResult = ACPToolKit.getCurrentTrialState();
 
@@ -127,12 +129,7 @@
                     trialData.push(row);
                 }
 
-                var halfway = +(totalNumberOfTrials/2)+1;
-console.log("curr " + currentTrial);
-console.log("half  " + halfway);
-
                 if (currentTrial == halfway) { 
-console.log("YAYYYYYYYY");
                     // Launch MODAL BOX
                     //$('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
                     startPop();
@@ -151,23 +148,6 @@ console.log("YAYYYYYYYY");
                     }
                 }
             }
-
-            /*function startTimer(duration, display) {
-                var timer = duration, minutes, seconds;
-                setInterval(function () {
-                    minutes = parseInt(timer / 60, 10)
-                    seconds = parseInt(timer % 60, 10);
-
-                    minutes = minutes < 10 ? "0" + minutes : minutes;
-                    seconds = seconds < 10 ? "0" + seconds : seconds;
-
-                    display.text(minutes + ":" + seconds);
-
-                    if (--timer < 0) {
-                        timer = duration;
-                    }
-                }, 1000);
-            }*/
 
             $(document).ready(function () {
                 $.get('data/experiments.json', function (data) {
