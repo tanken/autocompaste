@@ -125,13 +125,15 @@
                                 trialEndTime, trialDuration, accuracy];
                     trialData.push(row);
                 }
+
+                var halfway = +(totalNumberOfTrials/2)+1);
 console.log("curr " + currentTrial);
-console.log("other  " + (totalNumberOfTrials/2)+1);
+console.log("half  " + halfway);
                 if (currentTrial < totalNumberOfTrials) {
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
-                } else if(currentTrial == +totalNumberOfTrials/2+ +1) { 
+                } else if(currentTrial == halfway) { 
                     // Launch MODAL BOX
                     $('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
