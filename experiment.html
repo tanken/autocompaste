@@ -10,7 +10,10 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">
+        <link href="css/mypage_1_stylesheet.css" rel="stylesheet" type="text/css" media="all"/>
+        <link type='text/css' href='css/basic.css' rel='stylesheet' media='screen' />
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
     </head>
     <body class="experiment-page">
         <!--[if lt IE 8]>
@@ -58,7 +61,6 @@
                     <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> using the <b><span class="js-expt-technique">AUTOCOMPASTE</span></b> technique from one of the open windows.</p>
                     <div id="stimuli" class="alert alert-danger js-expt-stimuli">This is a long stimuli!</div>
                     <button class="btn btn-primary btn-lg" onclick="next()">Next Task</button>
-                    <button class="btn btn-primary btn-lg" onclick="popup()">Test</button>
                 </div>
                 <div id="autocompaste" class="col-sm-9">
                     <div id="autocompaste-display"></div>
@@ -66,7 +68,14 @@
             </div>
         </div>
 
-        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <div style="display: none; padding: 10px;" id="exit_content">
+            <h1>You have just completed <br> PART 1 of the Experiment !</h1>
+            <h2>We'll now take a SHORT BREAK</h2><br />
+            You have <span id="countdown">60</span> seconds left.
+        </div>
+
+        <!--<script src="js/vendor/jquery-1.11.2.min.js"></script>-->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/WindowManager.js"></script>
@@ -76,6 +85,9 @@
         <script src="js/autocompaste/autocompaste.js"></script>
         <script src="js/DataStorage.js"></script>
         <script src="js/ACPToolKit.js"></script>
+
+        <script type="text/javascript" src="js/jquery.simplemodal.js"></script>
+        <script type="text/javascript" src="js/init.js"></script>
 
         <script>
 
@@ -118,6 +130,13 @@
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
+                } else if(currentTrial == (totalNumberOfTrials/2)+1) { 
+                    // Launch MODAL BOX
+                    $('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
+}
+                    ACPToolKit.presentTrial(trialsData[currentTrial]);
+                    currentTrial += 1;
+                    $('.js-expt-current-trial').text(currentTrial);
                 } else {
                     // Last trial completed
                     ACPToolKit.downloadTrialResults(trialData);
@@ -125,10 +144,7 @@
                 }
             }
 
-            function popup() {
-            }
-
-            function startTimer(duration, display) {
+            /*function startTimer(duration, display) {
                 var timer = duration, minutes, seconds;
                 setInterval(function () {
                     minutes = parseInt(timer / 60, 10)
@@ -143,7 +159,7 @@
                         timer = duration;
                     }
                 }, 1000);
-            }
+            }*/
 
             $(document).ready(function () {
                 $.get('data/experiments.json', function (data) {
@@ -156,6 +172,29 @@
                     pid = ACPToolKit.getCurrentParticipantId();
                 })
             });
+
+            //function startTimer() {
+
+                var countdownTimer = setInterval('secondPassed()', 1000);
+
+                var seconds = 60;
+                function secondPassed() {
+                    var minutes = Math.round((seconds - 30)/60);
+                    var remainingSeconds = seconds % 60;
+                    if (remainingSeconds < 10) {
+                        remainingSeconds = "0" + remainingSeconds;  
+                    }
+                    document.getElementById('countdown').innerHTML = minutes + ":" + remainingSeconds;
+                    if (seconds == 0) {
+                        clearInterval(countdownTimer);
+                        //document.getElementById('countdown').innerHTML = "Buzz Buzz";
+                        $.modal.close();
+                    } else {
+                        seconds--;
+                    }
+                }
+            //}
+
         </script>
     </body>
 </html>
