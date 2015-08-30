@@ -60,7 +60,8 @@
                     </table>
                     <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> using the <b><span class="js-expt-technique">AUTOCOMPASTE</span></b> technique from one of the open windows.</p>
                     <div id="stimuli" class="alert alert-danger js-expt-stimuli">This is a long stimuli!</div>
-                    <button class="btn btn-primary btn-lg" onclick="next()">Next Task</button>
+                    <button class="btn btn-primary btn-lg" onclick="start()" id="start">Start Experiment</button>
+                    <button class="btn btn-primary btn-lg" onclick="next()" id="next" style="visibility:hidden">Next Task</button>
                     <!--<button class="btn btn-primary btn-lg" onclick="startPop()">test</button>-->
                 </div>
                 <div id="autocompaste" class="col-sm-9">
@@ -154,7 +155,7 @@
                 }
             }
 
-            $(document).ready(function () {
+            /*$(document).ready(function () {
                 $.get('data/experiments.json', function (data) {
                     trialsData = data.experiments;
                     currentTrial = 0;
@@ -164,7 +165,21 @@
                     next();
                     pid = ACPToolKit.getCurrentParticipantId();
                 })
-            });
+            });*/
+
+            function start() {
+                $.get('data/experiments.json', function (data) {
+                    trialsData = data.experiments;
+                    currentTrial = 0;
+                    totalNumberOfTrials = trialsData.length;
+                    $('.js-expt-num-trials').text(totalNumberOfTrials);
+                    trialData.push(headers);
+                    $('#start').hide();
+                    $('#next').show();
+                    next();
+                    pid = ACPToolKit.getCurrentParticipantId();
+                })
+            }
 
             function startPop() {
                 $('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
