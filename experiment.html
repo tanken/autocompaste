@@ -58,6 +58,7 @@
                     <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> using the <b><span class="js-expt-technique">AUTOCOMPASTE</span></b> technique from one of the open windows.</p>
                     <div id="stimuli" class="alert alert-danger js-expt-stimuli">This is a long stimuli!</div>
                     <button class="btn btn-primary btn-lg" onclick="next()">Next Task</button>
+                    <button class="btn btn-primary btn-lg" onclick="popup()">Test</button>
                 </div>
                 <div id="autocompaste" class="col-sm-9">
                     <div id="autocompaste-display"></div>
@@ -117,13 +118,14 @@
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
-                } else if{
-                    console.log("hello");
                 } else {
                     // Last trial completed
                     ACPToolKit.downloadTrialResults(trialData);
                     window.location = 'questionnaire-post.html';
                 }
+            }
+
+            function popup() {
             }
 
             function startTimer(duration, display) {
