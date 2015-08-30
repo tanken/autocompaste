@@ -36,6 +36,7 @@ var ACPToolKit = (function () {
 
     module.downloadTrialResults = function (data) {
         var pid = ACPToolKit.getCurrentParticipantId();
+console.log(data);
         arrayToCSV(data, 'acp-' + pid + '-trials');
     }
 
