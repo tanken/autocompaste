@@ -99,6 +99,8 @@
                     var trialStartTime = trialResult.start_time;
                     var trialEndTime = trialResult.end_time;
                     var trialDuration = trialResult.duration;
+console.log("stimuli " + stimuli);
+console.log("user " + userResponse);
                     var accuracy = stimuli === userResponse ? 1 : 0;
 
                     var row = [pid, technique, granularity, trialNum,
