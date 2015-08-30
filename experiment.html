@@ -119,8 +119,9 @@
                     var trialEndTime = trialResult.end_time;
                     var trialDuration = trialResult.duration;
 
-                    if (currentTrial == halfway) {
+                    if (currentTrial == (+(halfway) + +1)) {
                         trialStartTime += 6000; //60 seconds waiting
+                        trialDuration -= 6000;
                     }
 
                     //Remove additional line breaks that is included into stimuli for multiple sources
