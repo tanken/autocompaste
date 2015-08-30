@@ -11,8 +11,6 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="http://w2ui.com/src/w2ui-1.4.3.min.css" />
-        <script type="text/javascript" src="http://w2ui.com/src/w2ui-1.4.3.min.js"></script>
     </head>
     <body class="experiment-page">
         <!--[if lt IE 8]>
@@ -60,33 +58,9 @@
                     <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> using the <b><span class="js-expt-technique">AUTOCOMPASTE</span></b> technique from one of the open windows.</p>
                     <div id="stimuli" class="alert alert-danger js-expt-stimuli">This is a long stimuli!</div>
                     <button class="btn btn-primary btn-lg" onclick="next()">Next Task</button>
-                    <button class="btn" onclick="$('#popup1').w2popup()">Switch to Popup 2</button>
                 </div>
                 <div id="autocompaste" class="col-sm-9">
                     <div id="autocompaste-display"></div>
-                </div>
-            </div>
-        </div>
-
-        <div id="popup1" style="display: none; width: 650px; height: 400px; overflow: auto">
-            <div rel="title">
-                Popup #1 Title
-            </div>
-            <div rel="body">
-                <div style="padding: 10; font-size: 11px; line-height: 150%;">
-                    <div style="float:left; background-color:white; width:150px; height:80px; border: 1px solid silver; margin:5px;">
-                    </div>
-                    This is body of popup #1. You can put any text or HTML inside the body (as well as title and buttons).
-                    This is body of popup #1. You can put any text or HTML inside the body (as well as title and buttons).
-                    This is body of popup #1. You can put any text or HTML inside the body (as well as title and buttons).
-                    This is body of popup #1. You can put any text or HTML inside the body (as well as title and buttons).
-                    This is body of popup #1. You can put any text or HTML inside the body (as well as title and buttons).
-                    This is body of popup #1. You can put any text or HTML inside the body (as well as title and buttons).
-                    This is body of popup #1. You can put any text or HTML inside the body (as well as title and buttons).
-                    This is body of popup #1. You can put any text or HTML inside the body (as well as title and buttons).
-                    This is body of popup #1. You can put any text or HTML inside the body (as well as title and buttons).
-                    This is body of popup #1. You can put any text or HTML inside the body (as well as title and buttons).
-                    This is body of popup #1. You can put any text or HTML inside the body (as well as title and buttons).
                 </div>
             </div>
         </div>
@@ -144,9 +118,7 @@
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
                 } else if{
-
-
-
+                    console.log("hello");
                 } else {
                     // Last trial completed
                     ACPToolKit.downloadTrialResults(trialData);
