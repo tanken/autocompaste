@@ -6,7 +6,7 @@
  * Revision: $Id: jquery.simplemodal.js 181 2008-12-16 16:51:44Z emartin24 $
  */
 (function($) {
-	var ie6=$.browser.msie&&parseInt($.browser.version)==6&&!window['XMLHttpRequest'],ieQuirks=$.browser.msie&&!$.boxModel,w=[];
+	//var ie6=$.browser.msie&&parseInt($.browser.version)==6&&!window['XMLHttpRequest'],ieQuirks=$.browser.msie&&!$.boxModel,w=[];
 	$.modal=function(data,options){
 		return $.modal.impl.init(data,options);
 	};
