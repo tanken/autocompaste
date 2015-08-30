@@ -131,7 +131,7 @@ console.log("other  " + (totalNumberOfTrials/2)+1);
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
-                } else if(currentTrial == (totalNumberOfTrials/2)+1) { 
+                } else if(currentTrial == Number(totalNumberOfTrials/2)+Number(1)) { 
                     // Launch MODAL BOX
                     $('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
