@@ -125,7 +125,8 @@
                                 trialEndTime, trialDuration, accuracy];
                     trialData.push(row);
                 }
-
+console.log("curr " + currentTrial);
+console.log("other  " + (totalNumberOfTrials/2)+1);
                 if (currentTrial < totalNumberOfTrials) {
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
