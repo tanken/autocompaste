@@ -1,4 +1,4 @@
-/*$(document).ready(function() {
+$(document).ready(function() {
 
 $(document).mousemove(function(e) {
 
@@ -11,7 +11,7 @@ $('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
 
 });
 
-});*/
+});
 
 /**
  * When the open event is called, this function will be used to 'open'
