@@ -87,8 +87,9 @@ var ACPToolKit = (function () {
             if(options.stimuli.indexOf("\n\n")>=0) {
                 var sources = options.stimuli.split("\n\n");
                 var size_sources = sources.length;
+                $('.js-expt-stimuli').text();
                 for (var i=0; i < sources.length; i++) {
-                    $('.js-expt-stimuli').text("Source " + (i+1) + ": " + sources[i]);
+                    $('.js-expt-stimuli').innerHTML + "Source " + (i+1) + ": " + sources[i] + "\n";
                 }
             } else {
                 $('.js-expt-stimuli').text(options.stimuli);
