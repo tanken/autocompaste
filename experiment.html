@@ -101,7 +101,9 @@
                     var trialDuration = trialResult.duration;
 console.log("stimuli " + stimuli);
 console.log("user " + userResponse);
-                    var accuracy = stimuli.replace("\n","") === userResponse ? 1 : 0;
+                    var stimuli_edit = stimuli.replace("\n","");
+console.log("new " + stimuli_edit)
+                    var accuracy = stimuli_edit === userResponse ? 1 : 0;
 
                     var row = [pid, technique, granularity, trialNum,
                                 stimuli, userResponse, trialStartTime,
