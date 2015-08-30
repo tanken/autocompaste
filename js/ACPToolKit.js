@@ -86,9 +86,8 @@ var ACPToolKit = (function () {
             $('.js-expt-granularity').text(options.granularity);
             if(options.stimuli.indexOf("\n\n")>=0) {
                 var source = options.stimuli.split("\n\n");
-                var size_sources = source.length;
                 $('.js-expt-stimuli').text("");
-                for (var i=0; i < sources.length; i++) {
+                for (var i=0; i < source.length; i++) {
                     $('.js-expt-stimuli').append("<b>Source " + (i+1) + ":</b> " + source[i] + "<br>");
                 }
             } else {
