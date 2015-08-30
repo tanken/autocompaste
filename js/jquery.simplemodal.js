@@ -65,12 +65,12 @@
 		$(window).bind('resize.simplemodal',function(){
 			w=self.getDimensions();
 			self.setPosition();
-			if(ie6||ieQuirks){
-				self.fixIE();
-			}else{
+			//if(ie6||ieQuirks){
+			//	self.fixIE();
+			//}else{
 				self.dialog.iframe&&self.dialog.iframe.css({height:w[0],width:w[1]});
 				self.dialog.overlay.css({height:w[0],width:w[1]});
-			}
+			//}
 		}
 	);
 	},unbindEvents:function(){

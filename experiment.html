@@ -61,6 +61,7 @@
                     <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> using the <b><span class="js-expt-technique">AUTOCOMPASTE</span></b> technique from one of the open windows.</p>
                     <div id="stimuli" class="alert alert-danger js-expt-stimuli">This is a long stimuli!</div>
                     <button class="btn btn-primary btn-lg" onclick="next()">Next Task</button>
+                    <!--<button class="btn btn-primary btn-lg" onclick="startPop()">test</button>-->
                 </div>
                 <div id="autocompaste" class="col-sm-9">
                     <div id="autocompaste-display"></div>
@@ -137,6 +138,7 @@ console.log("half  " + halfway);
 console.log("YAYYYYYYYY");
                     // Launch MODAL BOX
                     //$('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
+                    startPop();
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
@@ -176,27 +178,28 @@ console.log("YAYYYYYYYY");
                 })
             });
 
-            //function startTimer() {
+            function startPop() {
+                $('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
+                var countdownTimer = setInterval('secondPassed()', 1000);             
+            }
 
-                var countdownTimer = setInterval('secondPassed()', 1000);
+            var seconds = 60;
 
-                var seconds = 60;
-                function secondPassed() {
-                    var minutes = Math.round((seconds - 30)/60);
-                    var remainingSeconds = seconds % 60;
-                    if (remainingSeconds < 10) {
-                        remainingSeconds = "0" + remainingSeconds;  
-                    }
-                    document.getElementById('countdown').innerHTML = minutes + ":" + remainingSeconds;
-                    if (seconds == 0) {
-                        clearInterval(countdownTimer);
-                        //document.getElementById('countdown').innerHTML = "Buzz Buzz";
-                        $.modal.close();
-                    } else {
-                        seconds--;
-                    }
+            function secondPassed() {
+                var minutes = Math.round((seconds - 30)/60);
+                var remainingSeconds = seconds % 60;
+                if (remainingSeconds < 10) {
+                    remainingSeconds = "0" + remainingSeconds;  
                 }
-            //}
+                document.getElementById('countdown').innerHTML = minutes + ":" + remainingSeconds;
+                if (seconds == 0) {
+                    //clearInterval(countdownTimer);
+                    //document.getElementById('countdown').innerHTML = "Buzz Buzz";
+                    $.modal.close();
+                } else {
+                    seconds--;
+                }
+            }
 
         </script>
     </body>
