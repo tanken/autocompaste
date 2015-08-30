@@ -60,7 +60,7 @@
                     <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> using the <b><span class="js-expt-technique">AUTOCOMPASTE</span></b> technique from one of the open windows.</p>
                     <div id="stimuli" class="alert alert-danger js-expt-stimuli">This is a long stimuli!</div>
                     <button class="btn btn-primary btn-lg" onclick="next()">Next Task</button>
-                    <button class="btn" onclick="$('#popup2').w2popup()">Switch to Popup 2</button>
+                    <button class="btn" onclick="$('#popup1').w2popup()">Switch to Popup 2</button>
                 </div>
                 <div id="autocompaste" class="col-sm-9">
                     <div id="autocompaste-display"></div>
@@ -103,8 +103,6 @@
         <script src="js/ACPToolKit.js"></script>
 
         <script>
-
-            $('#popup1').w2popup();
 
             var trialsData;
             var currentTrial;
