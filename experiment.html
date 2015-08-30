@@ -72,7 +72,7 @@
         <div style="display: none; padding: 10px;" id="exit_content">
             <h1>You have just completed <br> PART 1 of the Experiment !</h1>
             <h2>We'll now take a SHORT BREAK</h2><br />
-            You have <span id="countdown">60</span> seconds left.
+            You have <span id="countdown">1:00</span> minutes left.
         </div>
 
         <script src="js/vendor/jquery-1.11.2.min.js"></script>
@@ -120,8 +120,8 @@
                     var trialDuration = trialResult.duration;
 
                     if (currentTrial == (+(halfway) + +1)) {
-                        trialStartTime += 6000; //60 seconds waiting
-                        trialDuration -= 6000;
+                        trialStartTime += 61000; //60 seconds waiting
+                        trialDuration -= 61000;
                     }
 
                     //Remove additional line breaks that is included into stimuli for multiple sources
