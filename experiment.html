@@ -101,7 +101,7 @@
                     var trialDuration = trialResult.duration;
 console.log("stimuli " + stimuli);
 console.log("user " + userResponse);
-                    var stimuli_edit = stimuli.replace("\n","");
+                    var stimuli_edit = stimuli.replace(/(\r\n|\n|\r)/gm,"");
 console.log("new " + stimuli_edit)
                     var accuracy = stimuli_edit === userResponse ? 1 : 0;
 
