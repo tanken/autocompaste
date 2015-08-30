@@ -130,11 +130,8 @@
                 var halfway = +(totalNumberOfTrials/2)+1;
 console.log("curr " + currentTrial);
 console.log("half  " + halfway);
-                if (currentTrial < totalNumberOfTrials) {
-                    ACPToolKit.presentTrial(trialsData[currentTrial]);
-                    currentTrial += 1;
-                    $('.js-expt-current-trial').text(currentTrial);
-                } else if(currentTrial == halfway) { 
+
+                if (currentTrial == halfway) { 
 console.log("YAYYYYYYYY");
                     // Launch MODAL BOX
                     //$('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
@@ -143,9 +140,15 @@ console.log("YAYYYYYYYY");
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
                 } else {
-                    // Last trial completed
-                    ACPToolKit.downloadTrialResults(trialData);
-                    window.location = 'questionnaire-post.html';
+                    if (currentTrial < totalNumberOfTrials) {
+                        ACPToolKit.presentTrial(trialsData[currentTrial]);
+                        currentTrial += 1;
+                        $('.js-expt-current-trial').text(currentTrial);
+                    } else {
+                        // Last trial completed
+                        ACPToolKit.downloadTrialResults(trialData);
+                        window.location = 'questionnaire-post.html';
+                    }
                 }
             }
 
