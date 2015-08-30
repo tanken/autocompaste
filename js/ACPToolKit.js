@@ -84,7 +84,15 @@ var ACPToolKit = (function () {
 
             $('.js-expt-technique').text(options.technique);
             $('.js-expt-granularity').text(options.granularity);
-            $('.js-expt-stimuli').text(options.stimuli);
+            if(options.stimuli.indexOf("\n\n")>=0) {
+                var sources = options.stimuli.split("\n\n");
+                var size_sources = sources.length;
+                for (var i=0; i < sources.length; i++) {
+                    $('.js-expt-stimuli').text("Source " + (i+1) + ": " + sources[i]);
+                }
+            } else {
+                $('.js-expt-stimuli').text(options.stimuli);
+            }
 
             // Clean up DOM
             wm.destroyAllWindows();
