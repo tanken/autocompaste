@@ -36,7 +36,6 @@ var ACPToolKit = (function () {
 
     module.downloadTrialResults = function (data) {
         var pid = ACPToolKit.getCurrentParticipantId();
-console.log(data);
         arrayToCSV(data, 'acp-' + pid + '-trials');
     }
 
@@ -112,9 +111,6 @@ console.log(data);
                 var lines_to_highlight = stimuli.split("\n\n");
 
                 var windows = wm.getWindowList();
-
-console.log(lines_to_highlight);
-console.log(lines_to_highlight.length);
                 for (var i = 0; i < windows.length; i++) {
                     if (windows[i] == 'text_editor') {
                         continue;

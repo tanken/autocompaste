@@ -99,10 +99,9 @@
                     var trialStartTime = trialResult.start_time;
                     var trialEndTime = trialResult.end_time;
                     var trialDuration = trialResult.duration;
-console.log("stimuli " + stimuli);
-console.log("user " + userResponse);
+
+                    //Remove additional line breaks that is included into stimuli for multiple sources
                     var stimuli_edit = stimuli.replace(/(\r\n|\n|\r)/gm,"");
-console.log("new " + stimuli_edit)
                     var accuracy = stimuli_edit === userResponse ? 1 : 0;
 
                     var row = [pid, technique, granularity, trialNum,
