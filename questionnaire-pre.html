@@ -35,60 +35,112 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h1>Pre-Experiment Questionnaire</h1>
                     <hr>
-                    <p>This part of the interface collects whatever pre-experiment information. Please come up with a basic questionnaire to help you to gather participant information. The purpose of this questionnaire is to report the participant data and convince readers that you have picked an appropriate target user group and the result has certain generalizability.</p>
+                    <p>The purpose of this questionnaire is to report the participant data and convince readers that you have picked an appropriate target user group and the result has certain generalizability.</p>
 
-                    <p>Please put all information needed for participant: <span class="js-pid pid"></span></p>
+                    <p>Dear <span class="js-pid pid"></span>, kindly assist with completing the following questions.</p>
 
+                    <!--<p>Please put all information needed for participant: <span class="js-pid pid"></span></p>-->
+                    <hr>
                     <form id="pre-expt-form">
                         <div class="form-group">
-                            <label for="q1">Question 1 - Text</label>
-                            <input type="text" class="form-control" id="q1" name="q1" placeholder="Enter answer">
-                        </div>
-                        <div class="form-group">
-                            <label for="q2">Question 2 - Radio</label>
-                            <div class="radio">
+                        <h3>Personal</h3>  
+                            <label for="Age">Age Range</label>
+                             <div class="radio">
                               <label>
-                                <input type="radio" name="q2" id="optionsRadios1" value="radio1">
-                                Radio response 1
+                                <input type="radio" name="Age" id="optionsRadios1" value="17-18" required>
+                                17-18
                               </label>
                             </div>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q2" id="optionsRadios2" value="radio2">
-                                Radio response 2
+                                <input type="radio" name="Age" id="optionsRadios2" value="19-20">
+                                19-20
                               </label>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="q3">Question 3 - Checkbox</label>
-                            <div class="checkbox">
+                            <div class="radio">
                               <label>
-                                <input type="checkbox" name="q3" value="checkbox1">
-                                Checkbox response 1
+                                <input type="radio" name="Age" id="optionsRadios3" value="21-22">
+                                21-22
                               </label>
                             </div>
-                            <div class="checkbox">
+                            <div class="radio">
                               <label>
-                                <input type="checkbox" name="q3" value="checkbox2">
-                                Checkbox response 2
+                                <input type="radio" name="Age" id="optionsRadios4" value="23-24">
+                                23-24
                               </label>
                             </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="Age" id="optionsRadios5" value="25-26">
+                                25-26
+                              </label>
+                            </div>
+                            <label for="Gender">Gender</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="Gender" id="optionsRadios6" value="Male" required>
+                                Male
+                              </label> &nbsp;
+                              <label>
+                                <input type="radio" name="Gender" id="optionsRadios7" value="Female">
+                                Female
+                              </label>
+                            </div>
+                            <label for="Occupation">Occupation</label>
+                            <input name="Occupation" type="text" class="form-control" id="pid" placeholder="E.g. Student" data-validate="regex([A-Za-z]+$, Must contain alphabets only)" required>
+                        </div>                      
+                        <hr>
+                        <h3>Physical Condition</h3>  
+                            <label for="q9">Are you left-handed or right-handed?</label>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="Are you left-handed or right-handed?" id="optionsRadios8" value="Left-Handed" required>
+                                    Left-Handed
+                                </label> &nbsp;
+                                <label>
+                                    <input type="radio" name="Are you left-handed or right-handed?" id="optionsRadios9" value="Right-Handed">
+                                    Right-Handed
+                                </label>
+                            </div>
+                            </label>
+                            <label for="q10">Are you on any medication?</label>
+                            <br>(that may lead to drowsiness)
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="Are you on any medication?" id="optionsRadios8" value="Yes" required>
+                                    Yes
+                                </label> &nbsp;
+                                <label>
+                                    <input type="radio" name="Are you on any medication?" id="optionsRadios9" value="No">
+                                    No
+                                </label>
+                            </div>
+                        
+                            <hr>
+                            <h3>Technical Experience</h3>
+                                <div class="form-group">
+                                    <label for="q11">How often do you use a computer per day</label>
+                                    <input name="q11" type="text" class="form-control" id="pid" placeholder="E.g. P01"><br>
+                                    <label for="q12">What are some frequent tasks you perform on the computer?</label>
+
+                                    Checkbox
+                                    <input name="q12" type="text" class="form-control" id="pid" placeholder="E.g. P01"><br>
+                                    <label for="q13">How often do you work on tasks that require copying/pasting of text?</label>
+                                    <input name="q13" type="text" class="form-control" id="pid" placeholder="E.g. P01"><br>
+                                    <label for="q14">How do you perform copying/pasting?</label>
+                                    <input name="q14" type="text" class="form-control" id="pid" placeholder="E.g. P01"><br>
+
+                                    using keyboards shortcuts (Ctrl+C -> Ctrl+V)
+                                    right-click -> copy
+                                    NA
+                                    <label for="q15">How often do you use keyboard shortcuts?</label>
+                                    <input name="q15" type="text" class="form-control" id="pid" placeholder="E.g. P01"><br>
+                                    <label for="q16">Have you heard of AutoComPaste? If yes, have you used it?</label>
+                                    <input name="q16" type="text" class="form-control" id="pid" placeholder="E.g. P01"><br>
+                                </div>
+                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            Please save the..
                         </div>
-                        <div class="form-group">
-                            <label for="q4">Question 4 - Select Options</label>
-                            <select class="form-control" name="q4">
-                                <option value="option1">Option response 1</option>
-                                <option value="option2">Option response 2</option>
-                                <option value="option3">Option response 3</option>
-                                <option value="option4">Option response 4</option>
-                                <option value="option1">Option response 5</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="q5">Question 5 - Textarea</label>
-                            <textarea class="form-control" id="q5" name="q5" placeholder="Enter response"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
                     </form>
                 </div>
             </div>
@@ -99,6 +151,9 @@
         <script src="js/DataStorage.js"></script>
         <script src="js/ACPToolKit.js"></script>
         <script src="js/main.js"></script>
+        
+        <!-- Verify.js (with Notify.js included) -->
+        <script src="js/verify.notify.min.js"></script>
 
         <script>
             $(function () {

@@ -35,15 +35,16 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h1>Welcome!</h1>
                     <hr>
-                    <p>The startup interface provides the basic instructions to your participants, and also collect input from the participant/experimenter the participant ID so that you can generate the correct data log for a particular experiment session.</p>
+                    <p>Thank you to agreeing to participating in this XXX experiment.</p>
+                    <!--<p>The startup interface provides the basic instructions to your participants, and also collect input from the participant/experimenter the participant ID so that you can generate the correct data log for a particular experiment session.</p>-->
+                    <hr>
 
-                    <p>This is a template. Please write your participant number ID given by your experimenter. Participant IDs should only consist of alphanumeric characters.</p>
+                    <p>Please enter participant number ID given by your experimenter. Participant IDs should only consist of alphanumeric characters.</p>
                     <form class="form-inline" id="pid-form">
                         <div class="form-group">
                             <label for="pid">Participant ID</label>
-                            <input name="pid" type="text" class="form-control" id="pid" placeholder="E.g. P01">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                            <input name="pid" type="text" class="form-control" id="pid" placeholder="E.g. P01"><br>
+                        <button type="submit" class="btn btn-primary">Proceed</button>
                     </form>
                 </div>
             </div>
@@ -54,6 +55,9 @@
         <script src="js/DataStorage.js"></script>
         <script src="js/ACPToolKit.js"></script>
         <script src="js/main.js"></script>
+
+        <!-- Verify.js (with Notify.js included) -->
+        <script src"js/verify.notify.min.js"></script>
 
         <script>
             $(function () {
