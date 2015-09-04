@@ -54,7 +54,7 @@
                             </tr>
                             <tr>
                                 <td>Trial</td>
-                                <td><span class="js-expt-current-trial"></span> /54 <span class="js-expt-num-trials"></span></td>
+                                <td><span class="js-expt-current-trial"></span>/<span class="js-expt-num-trials">54</span></td>
                             </tr>
                         </tbody>
                     </table>
@@ -198,7 +198,7 @@
                     remainingSeconds = "0" + remainingSeconds; 
                     document.getElementById('countdown').style.color = 'red'; 
                 }
-                document.getElementById('countdown').innerHTML = minutes + ":" + remainingSecond;
+                document.getElementById('countdown').innerHTML = minutes + ":" + remainingSeconds;
 
                 if (seconds == 0) {
                     clearInterval(countdownTimer);
