@@ -121,10 +121,10 @@
                     var trialEndTime = trialResult.end_time;
                     var trialDuration = trialResult.duration;
 
-                    if (currentTrial == (+(halfway) + +1)) {
+                    /*if (currentTrial == (+(halfway) + +1)) {
                         trialStartTime += 62500; //60 seconds waiting
                         trialDuration -= 62500;
-                    }
+                    }*/
 
                     //Remove additional line breaks that is included into stimuli for multiple sources
                     var stimuli_edit = stimuli.replace(/(\r\n|\n|\r)/gm,"");
@@ -140,9 +140,10 @@
                     // Launch MODAL BOX
                     //$('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
                     startPop();
-                    ACPToolKit.presentTrial(trialsData[currentTrial]);
-                    currentTrial += 1;
-                    $('.js-expt-current-trial').text(currentTrial);
+                    // BROUGHT DOWN TO SECONDS PASSED
+                    //ACPToolKit.presentTrial(trialsData[currentTrial]);
+                    //currentTrial += 1;
+                    //$('.js-expt-current-trial').text(currentTrial);
                 } else {
                     if (currentTrial < totalNumberOfTrials) {
                         ACPToolKit.presentTrial(trialsData[currentTrial]);
@@ -194,7 +195,7 @@
             function secondPassed() {
                 var minutes = Math.round((seconds - 30)/60);
                 var remainingSeconds = seconds % 60;
-                if (remainingSeconds < 10) {
+                if (minutes < 1 && remainingSeconds < 10) {
                     remainingSeconds = "0" + remainingSeconds; 
                     document.getElementById('countdown').style.fontWeight = 'bold'; 
                     document.getElementById('countdown').style.color = 'red'; 
@@ -209,6 +210,9 @@
                     //document.getElementById('countdown').innerHTML = "Buzz Buzz";
                     $.modal.close();
                     seconds = 60;
+                    ACPToolKit.presentTrial(trialsData[currentTrial]);
+                    currentTrial += 1;
+                    $('.js-expt-current-trial').text(currentTrial);
                 } else {
                     seconds--;
                 }
