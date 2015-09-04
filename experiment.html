@@ -198,9 +198,10 @@
                     remainingSeconds = "0" + remainingSeconds; 
                     document.getElementById('countdown').style.fontWeight = 'bold'; 
                     document.getElementById('countdown').style.color = 'red'; 
+                } else {
+                    document.getElementById('countdown').style.fontWeight = 'normal';
+                    document.getElementById('countdown').style.color = 'black'; 
                 }
-                document.getElementById('countdown').style.fontWeight = 'normal';
-                document.getElementById('countdown').style.color = 'black'; 
                 document.getElementById('countdown').innerHTML = minutes + ":" + remainingSeconds;
 
                 if (seconds == 0) {
