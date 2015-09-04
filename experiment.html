@@ -154,7 +154,7 @@
                     // Launch MODAL BOX
                     //$('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
                     startPop();
-                    $('#specialMessage').text(Math.floor(totalNumberOfTrials/36)+1);
+                    $('#specialMessage').text(Math.floor(currentTrial/36)+1);
                     //$('#specialMessage').text("Block #1 of the Experiment");
                     // BROUGHT DOWN TO SECONDS PASSED
                     //ACPToolKit.presentTrial(trialsData[currentTrial]);
@@ -162,7 +162,7 @@
                     //$('.js-expt-current-trial').text(currentTrial);
                 } else if(isBlock == 0 && currentTrial != 0) {
                     startPopBlock();
-                    $('#specialMessage').text(Math.floor(totalNumberOfTrials/36)+1);
+                    $('#specialMessage').text(Math.floor(currentTrial/36)+1);
                 } else {
                     if (currentTrial < totalNumberOfTrials) {
                         ACPToolKit.presentTrial(trialsData[currentTrial]);
@@ -239,7 +239,7 @@
                     clearInterval(countdownTimer);
                     //document.getElementById('countdown').innerHTML = "Buzz Buzz";
                     $.modal.close();
-                    seconds = 60;
+                    seconds = 29;
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
