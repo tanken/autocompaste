@@ -54,7 +54,7 @@
                             </tr>
                             <tr>
                                 <td>Trial</td>
-                                <td><span class="js-expt-current-trial"></span>/<span class="js-expt-num-trials">36</span></td>
+                                <td><span class="js-expt-current-trial"></span>/<span class="js-expt-num-trials">108</span></td>
                             </tr>
                         </tbody>
                     </table>
@@ -112,7 +112,7 @@
 
             function next () {
                 var halfway = +(currentTrial%18);
-                var isBlock = Math.floor(currentTrial/36)
+                var isBlock = +(currentTrial%36)
                 /*var blockComplete;
                 if(currentTrial > 1) {
                     blockComplete = +(currentTrial%36)
@@ -150,7 +150,7 @@
                     trialData.push(row);
                 }
 
-                if (halfway == 0 && isBlock == 0 && currentTrial !== 0) { 
+                if (halfway == 0 && isBlock != 0 && currentTrial !== 0) { 
                     // Launch MODAL BOX
                     //$('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
                     startPop();
@@ -160,7 +160,7 @@
                     //ACPToolKit.presentTrial(trialsData[currentTrial]);
                     //currentTrial += 1;
                     //$('.js-expt-current-trial').text(currentTrial);
-                } else if(isBlock == 1 && currentTrial != 0) {
+                } else if(isBlock == 0 && currentTrial != 0) {
                     startPopBlock();
                     $('#specialMessage').text(Math.floor(totalNumberOfTrials/36)+1);
                 } else {
