@@ -72,9 +72,15 @@
         </div>
 
         <div style="display: none; padding: 10px;" id="exit_content">
-            <h1>You have just completed <br> <span id="specialMessage">XX of the Experiment !</span></h1>
-            <h2>We'll now take a SHORT BREAK</h2><br />
-            You have <span id="countdown">1:00</span> minutes left.
+            <h1>You have just completed <br>the first technique of Block #<span id="specialMessage"></span></h1>
+            <h2>We'll now take a SHORT BREAK, please do not leave this screen</h2><br />
+            You have <span id="countdown">0:30</span> minutes left.
+        </div>
+
+        <div style="display: none; padding: 10px;" id="exit_content2">
+            <h1>You have just completed <br>all 36 trials in Block #<span id="specialMessage"></span></h1>
+            <h2>Press start to continue the next block</h2><br />
+            <button class="btn btn-primary btn-lg" onclick="next()" id="next" >Start new block</button>
         </div>
 
         <script src="js/vendor/jquery-1.11.2.min.js"></script>
@@ -105,11 +111,12 @@
             var pid;
 
             function next () {
-                var halfway = +(totalNumberOfTrials/2);
-                var blockComplete;
+                var halfway = +(totalNumberOfTrials%18);
+                var isBlock = Math.floor(totalNumberOfTrials/18)%2
+                /*var blockComplete;
                 if(currentTrial > 1) {
-                    blockComplete = +(currentTrial%2)
-                }
+                    blockComplete = +(currentTrial%36)
+                }*/
 
                 if (currentTrial !== 0) {
                     var trialResult = ACPToolKit.getCurrentTrialState();
@@ -143,15 +150,19 @@
                     trialData.push(row);
                 }
 
-                if ( blockComplete == 0) { 
+                if (halfway == 0 && isBlock == 0) { 
                     // Launch MODAL BOX
                     //$('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
                     startPop();
-                    $('#specialMessage').text("Block #1 of the Experiment");
+                    $('#specialMessage').text(Math.floor(totalNumberOfTrials/18)+1);
+                    //$('#specialMessage').text("Block #1 of the Experiment");
                     // BROUGHT DOWN TO SECONDS PASSED
                     //ACPToolKit.presentTrial(trialsData[currentTrial]);
                     //currentTrial += 1;
                     //$('.js-expt-current-trial').text(currentTrial);
+                } else if(isBlock == 1) {
+                    startPopBlock();
+                    $('#specialMessage').text(Math.floor(totalNumberOfTrials/18)+1);
                 } else {
                     if (currentTrial < totalNumberOfTrials) {
                         ACPToolKit.presentTrial(trialsData[currentTrial]);
@@ -178,7 +189,7 @@
             });*/
 
             function start() {
-                $.get('data/experiments.json', function (data) {
+                $.get('data/experiments2.json', function (data) {
                     trialsData = data.experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length;
@@ -191,6 +202,10 @@
                 })
             }
 
+            function startPopBlock() {
+                $('#exit_content2').modal({onOpen: modalOpen, onClose: simplemodal_close});
+            }
+
             var countdownTimer;
 
             function startPop() {
@@ -198,7 +213,7 @@
                 countdownTimer = setInterval('secondPassed()', 1000);             
             }
 
-            var seconds = 59;
+            var seconds = 29;
 
             function secondPassed() {
                 var minutes = Math.round((seconds - 30)/60);
