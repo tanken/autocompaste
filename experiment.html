@@ -72,7 +72,7 @@
         </div>
 
         <div style="display: none; padding: 10px;" id="exit_content">
-            <h1>You have just completed <br>the first technique of Block #<span id="specialMessage"></span></h1>
+            <h1>You have just completed <br>the <span class="js-expt-technique"></span> technique of Block #<span id="specialMessage"></span></h1>
             <h2>We'll now take a SHORT BREAK, please do not leave this screen</h2><br />
             You have <span id="countdown">0:30</span> minutes left.
         </div>
@@ -153,16 +153,20 @@
                 if (halfway == 0 && isBlock != 0 && currentTrial !== 0) { 
                     // Launch MODAL BOX
                     //$('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
-                    startPop();
+                    
                     $('#specialMessage').text(Math.floor(currentTrial/36)+1);
+                    startPop();
+
                     //$('#specialMessage').text("Block #1 of the Experiment");
                     // BROUGHT DOWN TO SECONDS PASSED
                     //ACPToolKit.presentTrial(trialsData[currentTrial]);
                     //currentTrial += 1;
                     //$('.js-expt-current-trial').text(currentTrial);
-                } else if(isBlock == 0 && currentTrial != 0) {
-                    startPopBlock();
+                } else if(isBlock == 0 && currentTrial != 0 && Math.floor(currentTrial/36) != 3) {
+                    
                     $('#specialMessage').text(Math.floor(currentTrial/36)+1);
+                    startPopBlock();
+                    
                 } else {
                     if (currentTrial < totalNumberOfTrials) {
                         ACPToolKit.presentTrial(trialsData[currentTrial]);
