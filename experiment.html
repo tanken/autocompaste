@@ -42,7 +42,7 @@
                         <tbody>
                             <tr>
                                 <td>Technique</td>
-                                <td><span class="js-expt-technique">ACP or Ctrl-C/V</span></td>
+                                <td><span class="js-expt-technique">ACP or Traditional</span></td>
                             </tr>
                             <tr>
                                 <td>Granularity</td>
@@ -72,7 +72,7 @@
         </div>
 
         <div style="display: none; padding: 10px;" id="exit_content">
-            <h1>You have just completed <br> PART 1 of the Experiment !</h1>
+            <h1>You have just completed <br> <span id="specialMessage">XX of the Experiment !</span></h1>
             <h2>We'll now take a SHORT BREAK</h2><br />
             You have <span id="countdown">1:00</span> minutes left.
         </div>
@@ -106,6 +106,10 @@
 
             function next () {
                 var halfway = +(totalNumberOfTrials/2);
+                var blockComplete;
+                if(currentTrial > 1) {
+                    blockComplete = +(currentTrial%3)
+                }
 
                 if (currentTrial !== 0) {
                     var trialResult = ACPToolKit.getCurrentTrialState();
@@ -139,10 +143,11 @@
                     trialData.push(row);
                 }
 
-                if (currentTrial == halfway) { 
+                if ( blockComplete == 0) { 
                     // Launch MODAL BOX
                     //$('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
                     startPop();
+                    $('.specialMessage').text("Block #1 of the Experiment");
                     // BROUGHT DOWN TO SECONDS PASSED
                     //ACPToolKit.presentTrial(trialsData[currentTrial]);
                     //currentTrial += 1;
