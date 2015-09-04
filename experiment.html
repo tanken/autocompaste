@@ -88,6 +88,7 @@
         <script src="js/autocompaste/autocompaste.js"></script>
         <script src="js/DataStorage.js"></script>
         <script src="js/ACPToolKit.js"></script>
+        <script src="js/similar_text.js"></script>
 
         <script type="text/javascript" src="js/jquery.simplemodal.js"></script>
         <script type="text/javascript" src="js/init.js"></script>
@@ -128,7 +129,9 @@
 
                     //Remove additional line breaks that is included into stimuli for multiple sources
                     var stimuli_edit = stimuli.replace(/(\r\n|\n|\r)/gm,"");
-                    var accuracy = stimuli_edit === userResponse ? 1 : 0;
+                    
+                    //var similarity = stimuli_edit === userResponse ? 1 : 0;
+                    var accuracy = similar_text(stimuli_edit, userResponse, 1);
 
                     var row = [pid, technique, granularity, sources, trialNum,
                                 stimuli, userResponse, trialStartTime,
