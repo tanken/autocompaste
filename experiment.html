@@ -49,12 +49,12 @@
                                 <td><span class="js-expt-granularity">Phrase or Sentence or Paragraph</span></td>
                             </tr>
                             <tr>
-                                <td>Number of Sources</td>
-                                <td><span class="js-expt-sources">Source(s)</span></td>
+                                <td>Source Window</td>
+                                <td><span class="js-expt-sources">Within or Across Multiple</span></td>
                             </tr>
                             <tr>
                                 <td>Trial</td>
-                                <td><span class="js-expt-current-trial"></span>/<span class="js-expt-num-trials">54</span></td>
+                                <td><span class="js-expt-current-trial"></span>/<span class="js-expt-num-trials">36</span></td>
                             </tr>
                         </tbody>
                     </table>
@@ -108,7 +108,7 @@
                 var halfway = +(totalNumberOfTrials/2);
                 var blockComplete;
                 if(currentTrial > 1) {
-                    blockComplete = +(currentTrial%3)
+                    blockComplete = +(currentTrial%2)
                 }
 
                 if (currentTrial !== 0) {
