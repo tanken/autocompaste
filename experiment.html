@@ -196,14 +196,18 @@
                 var remainingSeconds = seconds % 60;
                 if (remainingSeconds < 10) {
                     remainingSeconds = "0" + remainingSeconds; 
+                    document.getElementById('countdown').style.fontWeight = 'bold'; 
                     document.getElementById('countdown').style.color = 'red'; 
                 }
+                document.getElementById('countdown').style.fontWeight = 'normal';
+                document.getElementById('countdown').style.color = 'black'; 
                 document.getElementById('countdown').innerHTML = minutes + ":" + remainingSeconds;
 
                 if (seconds == 0) {
                     clearInterval(countdownTimer);
                     //document.getElementById('countdown').innerHTML = "Buzz Buzz";
                     $.modal.close();
+                    seconds = 60;
                 } else {
                     seconds--;
                 }
