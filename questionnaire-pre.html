@@ -35,7 +35,8 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h1>Pre-Experiment Questionnaire</h1>
                     <hr>
-                    <p>The purpose of this questionnaire is to report the participant data and convince readers that you have picked an appropriate target user group and the result has certain generalizability.</p>
+                    <p>The purpose of this questionnaire is for the experimentor to get to know you better.<br>Please be assured that the answers you provide will be treat in a strict confidence and anonymity of all participants will be secured in this study.</p>
+                    <!--<p>The purpose of this questionnaire is to report the participant data and convince readers that you have picked an appropriate target user group and the result has certain generalizability.</p>-->
 
                     <p>Dear <span class="js-pid pid"></span>, kindly assist with completing the following questions.</p>
 
@@ -43,38 +44,9 @@
                     <hr>
                     <form id="pre-expt-form">
                         <div class="form-group">
-                        <h3>Personal</h3>  
-                            <label for="Age">Age Range</label>
-                             <div class="radio">
-                              <label>
-                                <input type="radio" name="Age" id="optionsRadios1" value="17-18" required>
-                                17-18
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="Age" id="optionsRadios2" value="19-20">
-                                19-20
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="Age" id="optionsRadios3" value="21-22">
-                                21-22
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="Age" id="optionsRadios4" value="23-24">
-                                23-24
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="Age" id="optionsRadios5" value="25-26">
-                                25-26
-                              </label>
-                            </div>
+                        <h3>Personal Information</h3>  
+                            <label for="Age">Age</label>
+                                <input name="Age" type="text" class="form-control" id="pid" placeholder="E.g. 25" data-validate="number" required>
                             <label for="Gender">Gender</label>
                             <div class="radio">
                               <label>
@@ -87,24 +59,24 @@
                               </label>
                             </div>
                             <label for="Occupation">Occupation</label>
-                            <input name="Occupation" type="text" class="form-control" id="pid" placeholder="E.g. Student" data-validate="regex([A-Za-z]+$, Must contain alphabets only)" required>
-                        </div>                      
+                                <input name="Occupation" type="text" class="form-control" id="pid" placeholder="E.g. Student" data-validate="regex([A-Za-z]+$, Must contain alphabets only)" required><br>
+                            <label for="Education">Education Level</label>
+                                <select class="form-control" name="Education Level" required>
+                                    <option disabled selected> -- select an option -- </option>
+                                    <option value="O-levels" required>O Levels</option>
+                                    <option value="A-levels">A Levels / IB</option>
+                                    <option value="Diploma">Diploma</option>
+                                    <option value="Bachelor">Bachelors</option>
+                                    <option value="Masters">Masters</option>
+                                    <option value="PhD">PhD</option>
+                                    <option value="NONE">[None]</option>
+                                </select>
+                        </div>             
+                        <br>         
                         <hr>
                         <h3>Physical Condition</h3>  
-                            <label for="q9">Are you left-handed or right-handed?</label>
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" name="Are you left-handed or right-handed?" id="optionsRadios8" value="Left-Handed" required>
-                                    Left-Handed
-                                </label> &nbsp;
-                                <label>
-                                    <input type="radio" name="Are you left-handed or right-handed?" id="optionsRadios9" value="Right-Handed">
-                                    Right-Handed
-                                </label>
-                            </div>
-                            </label>
-                            <label for="q10">Are you on any medication?</label>
-                            <br>(that may lead to drowsiness)
+                            <label for="q9">Are you on any medication today?</label>
+                            <br><em>(that may lead to drowsiness, loss of vision)</em>
                             <div class="radio">
                                 <label>
                                     <input type="radio" name="Are you on any medication?" id="optionsRadios8" value="Yes" required>
@@ -115,31 +87,142 @@
                                     No
                                 </label>
                             </div>
-                        
+                            <label for="q10">Are you left or right-handed?</label>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="Are you left-handed or right-handed?" id="optionsRadios10" value="Left-Handed" required>
+                                    Left-Handed
+                                </label> &nbsp;
+                                <label>
+                                    <input type="radio" name="Are you left-handed or right-handed?" id="optionsRadios11" value="Right-Handed">
+                                    Right-Handed
+                                </label>
+                            </div>
+                            <br>
                             <hr>
                             <h3>Technical Experience</h3>
                                 <div class="form-group">
-                                    <label for="q11">How often do you use a computer per day</label>
-                                    <input name="q11" type="text" class="form-control" id="pid" placeholder="E.g. P01"><br>
-                                    <label for="q12">What are some frequent tasks you perform on the computer?</label>
-
-                                    Checkbox
-                                    <input name="q12" type="text" class="form-control" id="pid" placeholder="E.g. P01"><br>
-                                    <label for="q13">How often do you work on tasks that require copying/pasting of text?</label>
-                                    <input name="q13" type="text" class="form-control" id="pid" placeholder="E.g. P01"><br>
-                                    <label for="q14">How do you perform copying/pasting?</label>
-                                    <input name="q14" type="text" class="form-control" id="pid" placeholder="E.g. P01"><br>
-
-                                    using keyboards shortcuts (Ctrl+C -> Ctrl+V)
-                                    right-click -> copy
-                                    NA
-                                    <label for="q15">How often do you use keyboard shortcuts?</label>
-                                    <input name="q15" type="text" class="form-control" id="pid" placeholder="E.g. P01"><br>
-                                    <label for="q16">Have you heard of AutoComPaste? If yes, have you used it?</label>
-                                    <input name="q16" type="text" class="form-control" id="pid" placeholder="E.g. P01"><br>
+                                    <label for="g11">Do you use the desktop or the laptop more often?</label>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="Do you use the desktop or the laptop more often?" id="optionsRadios12" value="Laptop" required>
+                                            Laptop
+                                        </label> &nbsp;
+                                        <label>
+                                            <input type="radio" name="Do you use the desktop or the laptop more often?" id="optionsRadios13" value="Desktop">
+                                            Desktop
+                                        </label>
+                                    </div>
+                                    <label for="q12">What is your average time of usage on a computer a day?</label>
+                                        <select class="form-control" name="Education Level" required>
+                                            <option disabled selected> -- select an option -- </option>
+                                            <option value="Less than 1 hrs">< 1 hr</option>
+                                            <option value="1 to 2 hrs">1 - 2 hrs</option>
+                                            <option value="3 to 4 hrs">3 - 4 hrs</option>
+                                            <option value="5 to 6 hrs">5 - 6 hrs</option>
+                                            <option value="More than 6 hrs">> 6 hrs</option>
+                                        </select><br>
+                                    <label for="q13">What are some frequent tasks you perform on the computer?</label>
+                                    <div class="checkbox">
+                                      <label>
+                                        <input type="checkbox" name="What are some frequent tasks you perform on the computer?" value="Social Media">
+                                        Social Media
+                                      </label> &nbsp;
+                                      <label>
+                                        <input type="checkbox" name="What are some frequent tasks you perform on the computer?" value="Personal Entertainment">
+                                        Personal Entertainment (E.g. music, movies)
+                                      </label> <br>
+                                      <label>
+                                        <input type="checkbox" name="What are some frequent tasks you perform on the computer?" value="Research & Homework">
+                                        Research & Homework
+                                      </label> &nbsp;
+                                      <label>
+                                        <input type="checkbox" name="What are some frequent tasks you perform on the computer?" value="Email">
+                                        Email
+                                      </label>
+                                    </div>
+                                    <label for="q17">How often do you use keyboard shortcuts?</label><br><em>(1 being Never Use; 5 being Very Often)</em>
+                                         <div class="radio">
+                                            <label>
+                                                <input type="radio" name="How often do you use keyboard shortcuts?" id="optionsRadios12" value="1" required>
+                                                1
+                                            </label> &nbsp;
+                                            <label>
+                                                <input type="radio" name="How often do you use keyboard shortcuts?" id="optionsRadios13" value="2">
+                                                2
+                                            </label> &nbsp;
+                                            <label>
+                                                <input type="radio" name="How often do you use keyboard shortcuts?" id="optionsRadios13" value="3">
+                                                3
+                                            </label> &nbsp;
+                                            <label>
+                                                <input type="radio" name="How often do you use keyboard shortcuts?" id="optionsRadios13" value="4">
+                                                4
+                                            </label> &nbsp;
+                                            <label>
+                                                <input type="radio" name="How often do you use keyboard shortcuts?" id="optionsRadios13" value="5">
+                                                5
+                                            </label>
+                                        </div>
+                                    <label for="q13">How often do you work on tasks that require copying/pasting of text?</label><br><em>(1 being Never Use; 5 being Very Often)</em>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="How often do you work on tasks that require copying/pasting of text?" id="optionsRadios12" value="1" required>
+                                                1
+                                            </label> &nbsp;
+                                            <label>
+                                                <input type="radio" name="How often do you work on tasks that require copying/pasting of text?" id="optionsRadios13" value="2">
+                                                2
+                                            </label> &nbsp;
+                                            <label>
+                                                <input type="radio" name="How often do you work on tasks that require copying/pasting of text?" id="optionsRadios13" value="3">
+                                                3
+                                            </label> &nbsp;
+                                            <label>
+                                                <input type="radio" name="How often do you work on tasks that require copying/pasting of text?" id="optionsRadios13" value="4">
+                                                4
+                                            </label> &nbsp;
+                                            <label>
+                                                <input type="radio" name="How often do you work on tasks that require copying/pasting of text?" id="optionsRadios13" value="5">
+                                                5
+                                            </label>
+                                        </div>
+                                    <label for="q16">How do you perform copying/pasting?</label>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="How do you perform copying/pasting?" id="optionsRadios13" value="Keyboard shortcuts">
+                                                Keyboards shortcuts (Ctrl+C -> Ctrl+V)
+                                            </label> &nbsp;
+                                            <label>
+                                                <input type="radio" name="How do you perform copying/pasting?" id="optionsRadios12" value="Right-click" required>
+                                                Highlight the text -> right-click -> copy & paste
+                                            </label>
+                                        </div>
+                                    <label for="q18">Have you heard of AutoComPaste?</label>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="Have you heard of AutoComPaste?" id="optionsRadios13" value="Yes">
+                                                Yes
+                                            </label> &nbsp;
+                                            <label>
+                                                <input type="radio" name="Have you heard of AutoComPaste?" id="optionsRadios12" value="No" required>
+                                                No
+                                            </label>
+                                        </div>
+                                    <label for="q18">If yes, have you used it?</label>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="If yes, have you used it?" id="optionsRadios13" value="Yes">
+                                                Yes
+                                            </label> &nbsp;
+                                            <label>
+                                                <input type="radio" name="If yes, have you used it?" id="optionsRadios12" value="No" >
+                                                No
+                                            </label>
+                                        </div>
                                 </div>
                             <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                            Please save the..
+                            Please save the document generated.
                         </div>
                     </form>
                 </div>

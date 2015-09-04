@@ -42,27 +42,27 @@
                         <tbody>
                             <tr>
                                 <td>Technique</td>
-                                <td><span class="js-expt-technique">ACP</span></td>
+                                <td><span class="js-expt-technique">ACP or Ctrl-C/V</span></td>
                             </tr>
                             <tr>
                                 <td>Granularity</td>
-                                <td><span class="js-expt-granularity">Phrase</span></td>
+                                <td><span class="js-expt-granularity">Phrase or Sentence or Paragraph</span></td>
                             </tr>
                             <tr>
                                 <td>Number of Sources</td>
-                                <td><span class="js-expt-sources">Source</span></td>
+                                <td><span class="js-expt-sources">Source(s)</span></td>
                             </tr>
                             <tr>
                                 <td>Trial</td>
-                                <td><span class="js-expt-current-trial"></span> / <span class="js-expt-num-trials"></span></td>
+                                <td><span class="js-expt-current-trial"></span> /54 <span class="js-expt-num-trials"></span></td>
                             </tr>
                         </tbody>
                     </table>
                     <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> using the <b><span class="js-expt-technique">AUTOCOMPASTE</span></b> technique from one of the open windows.</p>
-                    <div id="stimuli" class="alert alert-danger js-expt-stimuli"></div>
-                    <p class="start">When you're ready, please click button to start the experimen.</p>
-                    <button class="btn btn-primary btn-lg start" onclick="start()">Start Experiment</button>
-                    <button class="btn btn-primary btn-lg" onclick="next()" id="next" style="visibility:hidden">Next Task</button>
+                    <div id="stimuli" class="alert alert-danger js-expt-stimuli">This is a SAMPLE text</div>
+                    <p class="start">When you're ready, please click button to start the experiment.</p>
+                    <button class="btn btn-primary btn-lg start" onclick="start()">Start Experiment</button><br>
+                    <button class="btn btn-primary btn-lg" onclick="next()" id="next" style="visibility:hidden">Next Task</button> <br>
                     <!--<button class="btn btn-primary btn-lg" onclick="startPop()">test</button>-->
                 </div>
                 <div id="autocompaste" class="col-sm-9">
@@ -182,9 +182,11 @@
                 })
             }
 
+            var countdownTimer;
+
             function startPop() {
                 $('#exit_content').modal({onOpen: modalOpen, onClose: simplemodal_close});
-                var countdownTimer = setInterval('secondPassed()', 1000);             
+                countdownTimer = setInterval('secondPassed()', 1000);             
             }
 
             var seconds = 60;
@@ -193,11 +195,13 @@
                 var minutes = Math.round((seconds - 30)/60);
                 var remainingSeconds = seconds % 60;
                 if (remainingSeconds < 10) {
-                    remainingSeconds = "0" + remainingSeconds;  
+                    remainingSeconds = "0" + remainingSeconds; 
+                    document.getElementById('countdown').style.color = 'red'; 
                 }
-                document.getElementById('countdown').innerHTML = minutes + ":" + remainingSeconds;
+                document.getElementById('countdown').innerHTML = minutes + ":" + remainingSecond;
+
                 if (seconds == 0) {
-                    //clearInterval(countdownTimer);
+                    clearInterval(countdownTimer);
                     //document.getElementById('countdown').innerHTML = "Buzz Buzz";
                     $.modal.close();
                 } else {
