@@ -74,7 +74,7 @@
         <div style="display: none; padding: 10px; text-align: center; position: relative; top: 20%;" id="exit_content">
             <h1>You have just completed <br>the <span class="js-expt-technique"></span> technique of Block #<span id="specialMessage"></span></h1>
             <h2>We'll now take a SHORT BREAK, <span style="color: red"><br>please do not leave this screen!</span></h2><br />
-            You have <span id="countdown">30</span> seconds left.
+            <p>You have <span id="countdown">30</span> seconds left.</p>
             <button class="btn btn-primary btn-lg" onclick="continueBlock()" id="continue" style="visibility:hidden">Continue</button>
         </div>
 
@@ -238,7 +238,7 @@
             function secondPassed() {
                 var minutes = Math.round((seconds - 30)/60);
                 var remainingSeconds = seconds % 60;
-                if (minutes < 1 && remainingSeconds < 10) {
+                if (minutes < 1 && remainingSeconds < 11) {
                     remainingSeconds = "0" + remainingSeconds; 
                     document.getElementById('countdown').style.fontWeight = 'bold'; 
                     document.getElementById('countdown').style.color = 'red'; 
@@ -257,7 +257,7 @@
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);*/
-                    $("#next").css('visibility','visible');
+                    $("#continue").css('visibility','visible');
                 } else {
                     seconds--;
                 }
