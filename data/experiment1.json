@@ -863,6 +863,6 @@
             "trialID": "lalala",
             "data_file": "data/texts.json",
             "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },                 
+        }                 
     ]
 }
