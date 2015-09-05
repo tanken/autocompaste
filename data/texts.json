@@ -1,26 +1,18 @@
 [
     {
         "title": "Data 1",
-        "url": "data/articles/data1.txt"
+        "url": "data/articles/data.txt"
     },
     {
-        "title": "Data 2",
-        "url": "data/articles/data2.txt"
+        "title": "Article 2",
+        "url": "data/articles/spongebob.txt"
     },
     {
         "title": "Article 3",
-        "url": "data/articles/Article_3.txt"
+        "url": "data/articles/radion.txt"
     },
     {
         "title": "Article 4",
-        "url": "data/articles/Article_4.txt"
-    },
-    {
-        "title": "Article 5",
-        "url": "data/articles/Article_5.txt"
-    },
-    {
-        "title": "Article 6",
-        "url": "data/articles/Article_6.txt"
+        "url": "data/articles/single.txt"
     }
 ]

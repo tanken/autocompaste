@@ -6,111 +6,111 @@
             "sources": "Within Window",
             "trialID": "1",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow \n\nwhich shows that he is an overall very likable person" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
+            "granularity": "phrase",
+            "sources": "Within Window",
             "trialID": "2",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+            "stimuli": "The 17,000-strong village, called Khek Noi \n\nwhere most residents are of the Hmong ethnic minority" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
+            "granularity": "phrase",
             "sources": "Within Window",
             "trialID": "3",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+            "stimuli": "Even though I believed this \n\nI knew this wasn’t a point of view I’m supposed to have" 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
-            "sources": "Within Window",
+            "sources": "Across Multiple",
             "trialID": "4",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "Tell me about a time where \n\nhis naive and annoying traits cause him to seem less intelligent than he truly is." 
         },
         { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
             "sources": "Across Multiple",
             "trialID": "5",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+            "stimuli": "Describe how you would handle \n\noperating out of a concrete building located next to a graveyard" 
         },
         { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "sources": "Across Multiple",
             "trialID": "6",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "7",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "Amid these sad stories, \n\nhe proves to be very likable and a good sponge to have as a friend or to talk to." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "8",
+            "sources": "Within Window",
+            "trialID": "7",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+            "stimuli": "No One Likes Being Single? \n\nI laughed it off, but I was more hurt than I realized." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "8",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nThe 17,000-strong village, called Khek Noi, is impoverished, and the villagers are poorly educated." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
             "sources": "Within Window",
             "trialID": "9",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+            "stimuli": "What irritates you about other people, and how do you deal with it? \n\nGive me an example of a time you did something wrong." 
         },
         { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "sources": "Within Window",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
             "trialID": "10",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "Give me an example of a time you did something wrong. \n\nGlue-sniffing is rampant, snaring children as young as six." 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE",
             "granularity": "sentence",
             "sources": "Across Multiple",
             "trialID": "11",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+            "stimuli": "Tell me about a time where you had to deal with conflict on the job. \n\nI laughed it off, but I was more hurt than I realized." 
         },
         { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
             "trialID": "12",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nHow did you handle it?" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
+            "granularity": "paragraph",
             "sources": "Within Window",
             "trialID": "13",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
+            "granularity": "paragraph",
+            "sources": "Within Window",
             "trialID": "14",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+            "stimuli": "Even though I believed this with the core of my being—and I desperately wanted my high school students to hear this truth—I said most of this to my shoes. Because I knew this wasn’t a point of view I’m supposed to have, especially in the Church. \n\nI laughed it off, but I was more hurt than I realized. Driving home, I kept thinking, \"You don’t get to tell me how I feel. You don’t get to tell me what I can and can’t like.\" I wasn’t angry at my friend, but at society. Because here’s a shocker: I like being single." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -118,751 +118,751 @@
             "sources": "Within Window",
             "trialID": "15",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+            "stimuli": "Give me an example of a time you did something wrong. How did you handle it? \n\nIf you were at a business lunch and you ordered a rare steak and they brought it to you well done, what would you do? Please elaborate in the space provided." 
         },
         { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "sources": "Within Window",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
             "trialID": "16",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "Describe how you would handle a situation if you were required to finish multiple tasks by the end of the day, and there was no conceivable way that you could finish them. \n\nSpongeBob SquarePants is a cute, cuddly, yellow, well-dressed sea sponge who is optimistic, friendly, nice, happy, loyal, funny, hard-woking, outgoing, selfless, sweet, innocent, forgiving, and very good-natured, and loves to have fun and silly. In a variety of episodes, he is seen as fairly intelligent and very capable, even though his silliness and his naive and annoying traits cause him to seem less intelligent than he truly is." 
         },
         { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
             "sources": "Across Multiple",
             "trialID": "17",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+            "stimuli": "As the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six. \n\nI still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there’s simply no denying it, \"Krysti, no one likes being single.\"" 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE",
             "granularity": "paragraph",
-            "sources": "Within Window",
+            "sources": "Across Multiple",
             "trialID": "18",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "19",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "20",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+            "stimuli": "I still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there’s simply no denying it, \"Krysti, no one likes being single.\" \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "sources": "Within Window",
-            "trialID": "21",
+            "trialID": "1",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "22",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "23",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "24",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "25",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "26",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow \n\nwhich shows that he is an overall very likable person" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "sources": "Within Window",
-            "trialID": "27",
+            "trialID": "2",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "28",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "29",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "30",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "31",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+            "stimuli": "The 17,000-strong village, called Khek Noi \n\nwhere most residents are of the Hmong ethnic minority" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "sources": "Within Window",
-            "trialID": "32",
+            "trialID": "3",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "Even though I believed this \n\nI knew this wasn’t a point of view I’m supposed to have" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "4",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where \n\nhis naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "5",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle \n\noperating out of a concrete building located next to a graveyard" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "6",
+            "data_file": "data/texts.json",
+            "stimuli": "Amid these sad stories, \n\nhe proves to be very likable and a good sponge to have as a friend or to talk to." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "7",
+            "data_file": "data/texts.json",
+            "stimuli": "No One Likes Being Single? \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "8",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nThe 17,000-strong village, called Khek Noi, is impoverished, and the villagers are poorly educated." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "9",
+            "data_file": "data/texts.json",
+            "stimuli": "What irritates you about other people, and how do you deal with it? \n\nGive me an example of a time you did something wrong." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "sources": "Across Multiple",
-            "trialID": "33",
+            "trialID": "10",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+            "stimuli": "Give me an example of a time you did something wrong. \n\nGlue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "11",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where you had to deal with conflict on the job. \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "12",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nHow did you handle it?" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "sources": "Within Window",
-            "trialID": "34",
+            "trialID": "13",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "14",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this with the core of my being—and I desperately wanted my high school students to hear this truth—I said most of this to my shoes. Because I knew this wasn’t a point of view I’m supposed to have, especially in the Church. \n\nI laughed it off, but I was more hurt than I realized. Driving home, I kept thinking, \"You don’t get to tell me how I feel. You don’t get to tell me what I can and can’t like.\" I wasn’t angry at my friend, but at society. Because here’s a shocker: I like being single." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "15",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. How did you handle it? \n\nIf you were at a business lunch and you ordered a rare steak and they brought it to you well done, what would you do? Please elaborate in the space provided." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "16",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle a situation if you were required to finish multiple tasks by the end of the day, and there was no conceivable way that you could finish them. \n\nSpongeBob SquarePants is a cute, cuddly, yellow, well-dressed sea sponge who is optimistic, friendly, nice, happy, loyal, funny, hard-woking, outgoing, selfless, sweet, innocent, forgiving, and very good-natured, and loves to have fun and silly. In a variety of episodes, he is seen as fairly intelligent and very capable, even though his silliness and his naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "17",
+            "data_file": "data/texts.json",
+            "stimuli": "As the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six. \n\nI still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there’s simply no denying it, \"Krysti, no one likes being single.\"" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "18",
+            "data_file": "data/texts.json",
+            "stimuli": "I still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there’s simply no denying it, \"Krysti, no one likes being single.\" \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "sources": "Within Window",
-            "trialID": "35",
+            "trialID": "2",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "36",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "37",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "38",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "39",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "40",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+            "stimuli": "The 17,000-strong village, called Khek Noi \n\nwhere most residents are of the Hmong ethnic minority" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "sources": "Within Window",
-            "trialID": "41",
+            "trialID": "3",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "42",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "43",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "44",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "45",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+            "stimuli": "Even though I believed this \n\nI knew this wasn’t a point of view I’m supposed to have" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "sources": "Within Window",
-            "trialID": "46",
+            "trialID": "1",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow \n\nwhich shows that he is an overall very likable person" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "5",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle \n\noperating out of a concrete building located next to a graveyard" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "6",
+            "data_file": "data/texts.json",
+            "stimuli": "Amid these sad stories, \n\nhe proves to be very likable and a good sponge to have as a friend or to talk to." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "4",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where \n\nhis naive and annoying traits cause him to seem less intelligent than he truly is." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "47",
+            "sources": "Within Window",
+            "trialID": "8",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nThe 17,000-strong village, called Khek Noi, is impoverished, and the villagers are poorly educated." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "9",
+            "data_file": "data/texts.json",
+            "stimuli": "What irritates you about other people, and how do you deal with it? \n\nGive me an example of a time you did something wrong." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "7",
+            "data_file": "data/texts.json",
+            "stimuli": "No One Likes Being Single? \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "11",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where you had to deal with conflict on the job. \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "12",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nHow did you handle it?" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "10",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. \n\nGlue-sniffing is rampant, snaring children as young as six." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "sources": "Within Window",
-            "trialID": "48",
+            "trialID": "14",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+            "stimuli": "Even though I believed this with the core of my being—and I desperately wanted my high school students to hear this truth—I said most of this to my shoes. Because I knew this wasn’t a point of view I’m supposed to have, especially in the Church. \n\nI laughed it off, but I was more hurt than I realized. Driving home, I kept thinking, \"You don’t get to tell me how I feel. You don’t get to tell me what I can and can’t like.\" I wasn’t angry at my friend, but at society. Because here’s a shocker: I like being single." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "15",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. How did you handle it? \n\nIf you were at a business lunch and you ordered a rare steak and they brought it to you well done, what would you do? Please elaborate in the space provided." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "13",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "17",
+            "data_file": "data/texts.json",
+            "stimuli": "As the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six. \n\nI still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there’s simply no denying it, \"Krysti, no one likes being single.\"" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "18",
+            "data_file": "data/texts.json",
+            "stimuli": "I still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there’s simply no denying it, \"Krysti, no one likes being single.\" \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "16",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle a situation if you were required to finish multiple tasks by the end of the day, and there was no conceivable way that you could finish them. \n\nSpongeBob SquarePants is a cute, cuddly, yellow, well-dressed sea sponge who is optimistic, friendly, nice, happy, loyal, funny, hard-woking, outgoing, selfless, sweet, innocent, forgiving, and very good-natured, and loves to have fun and silly. In a variety of episodes, he is seen as fairly intelligent and very capable, even though his silliness and his naive and annoying traits cause him to seem less intelligent than he truly is." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "sources": "Within Window",
-            "trialID": "49",
+            "trialID": "2",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "50",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "51",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "52",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "53",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "54",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "55",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "56",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "57",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "58",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "59",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+            "stimuli": "The 17,000-strong village, called Khek Noi \n\nwhere most residents are of the Hmong ethnic minority" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "sources": "Within Window",
-            "trialID": "60",
+            "trialID": "3",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "61",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "62",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "63",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "64",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "65",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+            "stimuli": "Even though I believed this \n\nI knew this wasn’t a point of view I’m supposed to have" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "sources": "Within Window",
-            "trialID": "66",
+            "trialID": "1",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "67",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "68",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "69",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "70",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "71",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow \n\nwhich shows that he is an overall very likable person" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "72",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
             "sources": "Across Multiple",
-            "trialID": "73",
+            "trialID": "5",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "74",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "75",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "76",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "77",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+            "stimuli": "Describe how you would handle \n\noperating out of a concrete building located next to a graveyard" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "78",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
             "sources": "Across Multiple",
-            "trialID": "79",
+            "trialID": "6",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "80",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "81",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "82",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "83",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+            "stimuli": "Amid these sad stories, \n\nhe proves to be very likable and a good sponge to have as a friend or to talk to." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "84",
+            "sources": "Across Multiple",
+            "trialID": "4",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "Tell me about a time where \n\nhis naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "8",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nThe 17,000-strong village, called Khek Noi, is impoverished, and the villagers are poorly educated." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "9",
+            "data_file": "data/texts.json",
+            "stimuli": "What irritates you about other people, and how do you deal with it? \n\nGive me an example of a time you did something wrong." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "7",
+            "data_file": "data/texts.json",
+            "stimuli": "No One Likes Being Single? \n\nI laughed it off, but I was more hurt than I realized." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "sources": "Across Multiple",
-            "trialID": "85",
+            "trialID": "11",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "86",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "87",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "88",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "89",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "90",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "Tell me about a time where you had to deal with conflict on the job. \n\nI laughed it off, but I was more hurt than I realized." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "sources": "Across Multiple",
-            "trialID": "91",
+            "trialID": "12",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "92",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "93",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "sources": "Across Multiple",
-            "trialID": "94",
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "95",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "96",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nHow did you handle it?" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "sources": "Across Multiple",
-            "trialID": "97",
+            "trialID": "10",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+            "stimuli": "Give me an example of a time you did something wrong. \n\nGlue-sniffing is rampant, snaring children as young as six." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "sources": "Within Window",
-            "trialID": "98",
+            "trialID": "14",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+            "stimuli": "Even though I believed this with the core of my being—and I desperately wanted my high school students to hear this truth—I said most of this to my shoes. Because I knew this wasn’t a point of view I’m supposed to have, especially in the Church. \n\nI laughed it off, but I was more hurt than I realized. Driving home, I kept thinking, \"You don’t get to tell me how I feel. You don’t get to tell me what I can and can’t like.\" I wasn’t angry at my friend, but at society. Because here’s a shocker: I like being single." 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
             "sources": "Within Window",
-            "trialID": "99",
+            "trialID": "15",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "Give me an example of a time you did something wrong. How did you handle it? \n\nIf you were at a business lunch and you ordered a rare steak and they brought it to you well done, what would you do? Please elaborate in the space provided." 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "13",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
             "sources": "Across Multiple",
-            "trialID": "100",
+            "trialID": "17",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+            "stimuli": "As the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six. \n\nI still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there’s simply no denying it, \"Krysti, no one likes being single.\"" 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "101",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "sources": "Within Window",
-            "trialID": "102",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        },
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "sentence",
             "sources": "Across Multiple",
-            "trialID": "103",
+            "trialID": "18",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
-        },
+            "stimuli": "I still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there’s simply no denying it, \"Krysti, no one likes being single.\" \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        }, 
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
-            "sources": "Within Window",
-            "trialID": "104",
+            "sources": "Across Multiple",
+            "trialID": "16",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+            "stimuli": "Describe how you would handle a situation if you were required to finish multiple tasks by the end of the day, and there was no conceivable way that you could finish them. \n\nSpongeBob SquarePants is a cute, cuddly, yellow, well-dressed sea sponge who is optimistic, friendly, nice, happy, loyal, funny, hard-woking, outgoing, selfless, sweet, innocent, forgiving, and very good-natured, and loves to have fun and silly. In a variety of episodes, he is seen as fairly intelligent and very capable, even though his silliness and his naive and annoying traits cause him to seem less intelligent than he truly is." 
         },  
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "3",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this \n\nI knew this wasn’t a point of view I’m supposed to have" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "1",
+            "data_file": "data/texts.json",
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow \n\nwhich shows that he is an overall very likable person" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "2",
+            "data_file": "data/texts.json",
+            "stimuli": "The 17,000-strong village, called Khek Noi \n\nwhere most residents are of the Hmong ethnic minority" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "6",
+            "data_file": "data/texts.json",
+            "stimuli": "Amid these sad stories, \n\nhe proves to be very likable and a good sponge to have as a friend or to talk to." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "4",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where \n\nhis naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "5",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle \n\noperating out of a concrete building located next to a graveyard" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "9",
+            "data_file": "data/texts.json",
+            "stimuli": "What irritates you about other people, and how do you deal with it? \n\nGive me an example of a time you did something wrong." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "7",
+            "data_file": "data/texts.json",
+            "stimuli": "No One Likes Being Single? \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "8",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nThe 17,000-strong village, called Khek Noi, is impoverished, and the villagers are poorly educated." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "12",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nHow did you handle it?" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "10",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. \n\nGlue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "11",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where you had to deal with conflict on the job. \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "sources": "Within Window",
-            "trialID": "105",
+            "trialID": "15",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },  
+            "stimuli": "Give me an example of a time you did something wrong. How did you handle it? \n\nIf you were at a business lunch and you ordered a rare steak and they brought it to you well done, what would you do? Please elaborate in the space provided." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "13",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "14",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this with the core of my being—and I desperately wanted my high school students to hear this truth—I said most of this to my shoes. Because I knew this wasn’t a point of view I’m supposed to have, especially in the Church. \n\nI laughed it off, but I was more hurt than I realized. Driving home, I kept thinking, \"You don’t get to tell me how I feel. You don’t get to tell me what I can and can’t like.\" I wasn’t angry at my friend, but at society. Because here’s a shocker: I like being single." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "18",
+            "data_file": "data/texts.json",
+            "stimuli": "I still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there’s simply no denying it, \"Krysti, no one likes being single.\" \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "16",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle a situation if you were required to finish multiple tasks by the end of the day, and there was no conceivable way that you could finish them. \n\nSpongeBob SquarePants is a cute, cuddly, yellow, well-dressed sea sponge who is optimistic, friendly, nice, happy, loyal, funny, hard-woking, outgoing, selfless, sweet, innocent, forgiving, and very good-natured, and loves to have fun and silly. In a variety of episodes, he is seen as fairly intelligent and very capable, even though his silliness and his naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "17",
+            "data_file": "data/texts.json",
+            "stimuli": "As the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six. \n\nI still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there’s simply no denying it, \"Krysti, no one likes being single.\"" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "3",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this \n\nI knew this wasn’t a point of view I’m supposed to have" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "1",
+            "data_file": "data/texts.json",
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow \n\nwhich shows that he is an overall very likable person" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "2",
+            "data_file": "data/texts.json",
+            "stimuli": "The 17,000-strong village, called Khek Noi \n\nwhere most residents are of the Hmong ethnic minority" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "6",
+            "data_file": "data/texts.json",
+            "stimuli": "Amid these sad stories, \n\nhe proves to be very likable and a good sponge to have as a friend or to talk to." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "4",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where \n\nhis naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "5",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle \n\noperating out of a concrete building located next to a graveyard" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "9",
+            "data_file": "data/texts.json",
+            "stimuli": "What irritates you about other people, and how do you deal with it? \n\nGive me an example of a time you did something wrong." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "7",
+            "data_file": "data/texts.json",
+            "stimuli": "No One Likes Being Single? \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "8",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nThe 17,000-strong village, called Khek Noi, is impoverished, and the villagers are poorly educated." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "12",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nHow did you handle it?" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "10",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. \n\nGlue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "11",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where you had to deal with conflict on the job. \n\nI laughed it off, but I was more hurt than I realized." 
+        },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "sources": "Within Window",
-            "trialID": "106",
+            "trialID": "15",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },  
+            "stimuli": "Give me an example of a time you did something wrong. How did you handle it? \n\nIf you were at a business lunch and you ordered a rare steak and they brought it to you well done, what would you do? Please elaborate in the space provided." 
+        },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "sources": "Within Window",
-            "trialID": "hehehe",
+            "trialID": "13",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        },  
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "sources": "Within Window",
-            "trialID": "lalala",
+            "trialID": "14",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
-        }                 
+            "stimuli": "Even though I believed this with the core of my being—and I desperately wanted my high school students to hear this truth—I said most of this to my shoes. Because I knew this wasn’t a point of view I’m supposed to have, especially in the Church. \n\nI laughed it off, but I was more hurt than I realized. Driving home, I kept thinking, \"You don’t get to tell me how I feel. You don’t get to tell me what I can and can’t like.\" I wasn’t angry at my friend, but at society. Because here’s a shocker: I like being single." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "18",
+            "data_file": "data/texts.json",
+            "stimuli": "I still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there’s simply no denying it, \"Krysti, no one likes being single.\" \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        }, 
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "16",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle a situation if you were required to finish multiple tasks by the end of the day, and there was no conceivable way that you could finish them. \n\nSpongeBob SquarePants is a cute, cuddly, yellow, well-dressed sea sponge who is optimistic, friendly, nice, happy, loyal, funny, hard-woking, outgoing, selfless, sweet, innocent, forgiving, and very good-natured, and loves to have fun and silly. In a variety of episodes, he is seen as fairly intelligent and very capable, even though his silliness and his naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "17",
+            "data_file": "data/texts.json",
+            "stimuli": "As the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six. \n\nI still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there’s simply no denying it, \"Krysti, no one likes being single.\"" 
+        }             
     ]
 }
