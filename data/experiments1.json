@@ -1,0 +1,868 @@
+{
+    "experiments": [
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "1",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "4",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "5",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "6",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "7",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "8",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "9",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "10",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "11",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "12",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "13",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "14",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "15",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "16",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "17",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "18",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "19",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "20",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "21",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "22",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "23",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "24",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "25",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "26",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "27",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "28",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "29",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "30",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "31",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "32",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "33",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "34",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "35",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "36",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "37",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "38",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "39",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "40",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "41",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "42",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "43",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "44",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "45",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "46",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "47",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "48",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "49",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "50",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "51",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "52",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "53",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "54",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "55",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "56",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "57",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "58",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "59",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "60",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "61",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "62",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "63",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "64",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "65",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "66",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "67",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "68",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "69",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "70",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "71",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "72",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "73",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "74",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "75",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "76",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "77",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "78",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "79",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "80",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "81",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "82",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "83",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "84",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "85",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "86",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "87",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "88",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "89",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "90",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "91",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "92",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "93",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "94",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "95",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "96",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "97",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "98",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "99",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "100",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "101",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? passes an AC signal while blocking a DC voltage." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "102",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "103",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? \n\nAviation electronics" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "104",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },  
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "105",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },  
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "106",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },  
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "hehehe",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },  
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "lalala",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? \n\npasses an AC signal while blocking a DC voltage." 
+        },                 
+    ]
+}

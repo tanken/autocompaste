@@ -105,9 +105,10 @@
             var trialsData;
             var currentTrial;
             var totalNumberOfTrials;
-            var headers = ['Participant id', 'Technique', 'Granularity', 'Sources',
-                            'Trial no', 'Stimuli', 'User Response', 'Trial Start Time',
-                            'Trial End Time', 'Trial Time', 'Accuracy'];
+            var headers = ['Participant ID', 'Technique', 'Granularity', 'Sources',
+                            'Trial No', 'Trial ID', 'Stimuli', 'User Response', 
+                            'Trial Start Time', 'Trial End Time', 'Trial Time', 
+                            'Accuracy'];
             var trialData = [];
             var pid;
 
@@ -128,6 +129,7 @@
                     var sources = trialResult.sources;
 
                     var trialNum = currentTrial;
+                    var trialID = trialResult.trialID;
                     var stimuli = trialResult.stimuli;
                     var userResponse = trialResult.user_response;
                     var trialStartTime = trialResult.start_time;
@@ -146,7 +148,7 @@
                     var accuracy = similar_text(stimuli_edit, userResponse, 1);
 
                     var row = [pid, technique, granularity, sources, trialNum,
-                                stimuli, userResponse, trialStartTime,
+                                trialID, stimuli, userResponse, trialStartTime,
                                 trialEndTime, trialDuration, accuracy];
                     trialData.push(row);
                 }
@@ -194,8 +196,77 @@
                 })
             });*/
 
+            var experimentToUse;
+
+            $(document).ready(function () {
+                switch(ACPToolKit.getCurrentParticipantId())
+                {
+                    case 'P01':
+                    experimentToUse = 'data/experiment1.json';
+                    console.log("using experiment1 for p01");
+                    break;
+
+                    case 'P02':
+                    experimentToUse = 'data/experiment2.json';
+                    console.log("using experiment2 for p02");
+                    break;
+
+                    case 'P03':
+                    experimentToUse = 'data/experiment3.json';
+                    console.log("using experiment3 for p03");
+                    break;
+
+                    case 'P04':
+                    experimentToUse = 'data/experiment4.json';
+                    console.log("using experiment4 for p04");
+                    break;
+
+                    case 'P05':
+                    experimentToUse = 'data/experiment5.json';
+                    console.log("using experiment5 for p05");
+                    break;
+
+                    case 'P06':
+                    experimentToUse = 'data/experiment6.json';
+                    console.log("using experiment6 for p06");
+                    break;
+
+                    case 'P07':
+                    experimentToUse = 'data/experiment7.json';
+                    console.log("using experiment7 for p07");
+                    break;
+
+                    case 'P08':
+                    experimentToUse = 'data/experiment8.json';
+                    console.log("using experiment8 for p08");
+                    break;
+
+                    case 'P09':
+                    experimentToUse = 'data/experiment9.json';
+                    console.log("using experiment9 for p09");
+                    break;
+
+                    case 'P10':
+                    experimentToUse = 'data/experiment10.json';
+                    console.log("using experiment10 for p10");
+                    break;
+
+                    case 'P11':
+                    experimentToUse = 'data/experiment11.json';
+                    console.log("using experiment11 for p11");
+                    break;
+
+                    case 'P12':
+                    experimentToUse = 'data/experiment12.json';
+                    console.log("using experiment12 for p12");
+                    break;
+
+                    default:
+                }
+            });
+
             function start() {
-                $.get('data/experiments2.json', function (data) {
+                $.get(experimentToUse, function (data) {
                     trialsData = data.experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length;
