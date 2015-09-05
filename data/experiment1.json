@@ -6,7 +6,7 @@
             "sources": "Within Window",
             "trialID": "1",
             "data_file": "data/texts.json",
-            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow \n\nwhich shows that he is an overall very likable person" 
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow, \n\nwhich shows that he is an overall very likable person" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -14,7 +14,7 @@
             "sources": "Within Window",
             "trialID": "2",
             "data_file": "data/texts.json",
-            "stimuli": "The 17,000-strong village, called Khek Noi \n\nwhere most residents are of the Hmong ethnic minority" 
+            "stimuli": "The 17,000-strong village, called Khek Noi, \n\nwhere most residents are of the Hmong ethnic minority" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -150,7 +150,7 @@
             "sources": "Within Window",
             "trialID": "1",
             "data_file": "data/texts.json",
-            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow \n\nwhich shows that he is an overall very likable person" 
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow, \n\nwhich shows that he is an overall very likable person" 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -158,7 +158,7 @@
             "sources": "Within Window",
             "trialID": "2",
             "data_file": "data/texts.json",
-            "stimuli": "The 17,000-strong village, called Khek Noi \n\nwhere most residents are of the Hmong ethnic minority" 
+            "stimuli": "The 17,000-strong village, called Khek Noi, \n\nwhere most residents are of the Hmong ethnic minority" 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -294,7 +294,7 @@
             "sources": "Within Window",
             "trialID": "2",
             "data_file": "data/texts.json",
-            "stimuli": "The 17,000-strong village, called Khek Noi \n\nwhere most residents are of the Hmong ethnic minority" 
+            "stimuli": "The 17,000-strong village, called Khek Noi, \n\nwhere most residents are of the Hmong ethnic minority" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -310,7 +310,7 @@
             "sources": "Within Window",
             "trialID": "1",
             "data_file": "data/texts.json",
-            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow \n\nwhich shows that he is an overall very likable person" 
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow, \n\nwhich shows that he is an overall very likable person" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -438,7 +438,7 @@
             "sources": "Within Window",
             "trialID": "2",
             "data_file": "data/texts.json",
-            "stimuli": "The 17,000-strong village, called Khek Noi \n\nwhere most residents are of the Hmong ethnic minority" 
+            "stimuli": "The 17,000-strong village, called Khek Noi, \n\nwhere most residents are of the Hmong ethnic minority" 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -454,7 +454,7 @@
             "sources": "Within Window",
             "trialID": "1",
             "data_file": "data/texts.json",
-            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow \n\nwhich shows that he is an overall very likable person" 
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow, \n\nwhich shows that he is an overall very likable person" 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -590,7 +590,7 @@
             "sources": "Within Window",
             "trialID": "1",
             "data_file": "data/texts.json",
-            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow \n\nwhich shows that he is an overall very likable person" 
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow, \n\nwhich shows that he is an overall very likable person" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -598,7 +598,7 @@
             "sources": "Within Window",
             "trialID": "2",
             "data_file": "data/texts.json",
-            "stimuli": "The 17,000-strong village, called Khek Noi \n\nwhere most residents are of the Hmong ethnic minority" 
+            "stimuli": "The 17,000-strong village, called Khek Noi, \n\nwhere most residents are of the Hmong ethnic minority" 
         },
         { 
             "technique": "AUTOCOMPASTE",
@@ -734,7 +734,7 @@
             "sources": "Within Window",
             "trialID": "1",
             "data_file": "data/texts.json",
-            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow \n\nwhich shows that he is an overall very likable person" 
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow, \n\nwhich shows that he is an overall very likable person" 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -742,7 +742,7 @@
             "sources": "Within Window",
             "trialID": "2",
             "data_file": "data/texts.json",
-            "stimuli": "The 17,000-strong village, called Khek Noi \n\nwhere most residents are of the Hmong ethnic minority" 
+            "stimuli": "The 17,000-strong village, called Khek Noi, \n\nwhere most residents are of the Hmong ethnic minority" 
         },
         { 
             "technique": "TRADITIONAL", 
