@@ -1,0 +1,868 @@
+{
+    "experiments": [
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "13",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "14",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this with the core of my being—and I desperately wanted my high school students to hear this truth—I said most of this to my shoes. Because I knew this wasn't a point of view I'm supposed to have, especially in the Church. \n\nI laughed it off, but I was more hurt than I realized. Driving home, I kept thinking, You don't get to tell me how I feel. You don't get to tell me what I can and can't like. I wasn't angry at my friend, but at society. Because here's a shocker: I like being single." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "15",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. How did you handle it? \n\nIf you were at a business lunch and you ordered a rare steak and they brought it to you well done, what would you do? Please elaborate in the space provided." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "16",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle a situation if you were required to finish multiple tasks by the end of the day, and there was no conceivable way that you could finish them. \n\nSpongeBob SquarePants is a cute, cuddly, yellow, well-dressed sea sponge who is optimistic, friendly, nice, happy, loyal, funny, hard-woking, outgoing, selfless, sweet, innocent, forgiving, and very good-natured, and loves to have fun and silly. In a variety of episodes, he is seen as fairly intelligent and very capable, even though his silliness and his naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "17",
+            "data_file": "data/texts.json",
+            "stimuli": "As the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six. \n\nI still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there's simply no denying it, Krysti, no one likes being single." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "18",
+            "data_file": "data/texts.json",
+            "stimuli": "I still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there's simply no denying it, Krysti, no one likes being single. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "1",
+            "data_file": "data/texts.json",
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow, \n\nwhich shows that he is an overall very likable person" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "2",
+            "data_file": "data/texts.json",
+            "stimuli": "The 17,000-strong village, called Khek Noi, \n\nwhere most residents are of the Hmong ethnic minority" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "3",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this \n\nI knew this wasn't a point of view I'm supposed to have" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "4",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where \n\nhis naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "5",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle \n\noperating out of a concrete building located next to a graveyard" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "6",
+            "data_file": "data/texts.json",
+            "stimuli": "Amid these sad stories, \n\nhe proves to be very likable and a good sponge to have as a friend or to talk to." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "7",
+            "data_file": "data/texts.json",
+            "stimuli": "No One Likes Being Single? \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "8",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nThe 17,000-strong village, called Khek Noi, is impoverished, and the villagers are poorly educated." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "9",
+            "data_file": "data/texts.json",
+            "stimuli": "What irritates you about other people, and how do you deal with it? \n\nGive me an example of a time you did something wrong." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "10",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. \n\nGlue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "11",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where you had to deal with conflict on the job. \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "12",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nHow did you handle it?" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "13",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "14",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this with the core of my being—and I desperately wanted my high school students to hear this truth—I said most of this to my shoes. Because I knew this wasn't a point of view I'm supposed to have, especially in the Church. \n\nI laughed it off, but I was more hurt than I realized. Driving home, I kept thinking, You don't get to tell me how I feel. You don't get to tell me what I can and can't like. I wasn't angry at my friend, but at society. Because here's a shocker: I like being single." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "15",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. How did you handle it? \n\nIf you were at a business lunch and you ordered a rare steak and they brought it to you well done, what would you do? Please elaborate in the space provided." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "16",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle a situation if you were required to finish multiple tasks by the end of the day, and there was no conceivable way that you could finish them. \n\nSpongeBob SquarePants is a cute, cuddly, yellow, well-dressed sea sponge who is optimistic, friendly, nice, happy, loyal, funny, hard-woking, outgoing, selfless, sweet, innocent, forgiving, and very good-natured, and loves to have fun and silly. In a variety of episodes, he is seen as fairly intelligent and very capable, even though his silliness and his naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "17",
+            "data_file": "data/texts.json",
+            "stimuli": "As the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six. \n\nI still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there's simply no denying it, Krysti, no one likes being single." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "18",
+            "data_file": "data/texts.json",
+            "stimuli": "I still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there's simply no denying it, Krysti, no one likes being single. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "1",
+            "data_file": "data/texts.json",
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow, \n\nwhich shows that he is an overall very likable person" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "2",
+            "data_file": "data/texts.json",
+            "stimuli": "The 17,000-strong village, called Khek Noi, \n\nwhere most residents are of the Hmong ethnic minority" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "3",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this \n\nI knew this wasn't a point of view I'm supposed to have" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "4",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where \n\nhis naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "5",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle \n\noperating out of a concrete building located next to a graveyard" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "6",
+            "data_file": "data/texts.json",
+            "stimuli": "Amid these sad stories, \n\nhe proves to be very likable and a good sponge to have as a friend or to talk to." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "7",
+            "data_file": "data/texts.json",
+            "stimuli": "No One Likes Being Single? \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "8",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nThe 17,000-strong village, called Khek Noi, is impoverished, and the villagers are poorly educated." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "9",
+            "data_file": "data/texts.json",
+            "stimuli": "What irritates you about other people, and how do you deal with it? \n\nGive me an example of a time you did something wrong." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "10",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. \n\nGlue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "11",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where you had to deal with conflict on the job. \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "12",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nHow did you handle it?" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "14",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this with the core of my being—and I desperately wanted my high school students to hear this truth—I said most of this to my shoes. Because I knew this wasn't a point of view I'm supposed to have, especially in the Church. \n\nI laughed it off, but I was more hurt than I realized. Driving home, I kept thinking, You don't get to tell me how I feel. You don't get to tell me what I can and can't like. I wasn't angry at my friend, but at society. Because here's a shocker: I like being single." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "15",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. How did you handle it? \n\nIf you were at a business lunch and you ordered a rare steak and they brought it to you well done, what would you do? Please elaborate in the space provided." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "13",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "17",
+            "data_file": "data/texts.json",
+            "stimuli": "As the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six. \n\nI still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there's simply no denying it, Krysti, no one likes being single." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "18",
+            "data_file": "data/texts.json",
+            "stimuli": "I still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there's simply no denying it, Krysti, no one likes being single. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "16",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle a situation if you were required to finish multiple tasks by the end of the day, and there was no conceivable way that you could finish them. \n\nSpongeBob SquarePants is a cute, cuddly, yellow, well-dressed sea sponge who is optimistic, friendly, nice, happy, loyal, funny, hard-woking, outgoing, selfless, sweet, innocent, forgiving, and very good-natured, and loves to have fun and silly. In a variety of episodes, he is seen as fairly intelligent and very capable, even though his silliness and his naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "2",
+            "data_file": "data/texts.json",
+            "stimuli": "The 17,000-strong village, called Khek Noi, \n\nwhere most residents are of the Hmong ethnic minority" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "3",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this \n\nI knew this wasn't a point of view I'm supposed to have" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "1",
+            "data_file": "data/texts.json",
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow, \n\nwhich shows that he is an overall very likable person" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "5",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle \n\noperating out of a concrete building located next to a graveyard" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "6",
+            "data_file": "data/texts.json",
+            "stimuli": "Amid these sad stories, \n\nhe proves to be very likable and a good sponge to have as a friend or to talk to." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "4",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where \n\nhis naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "8",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nThe 17,000-strong village, called Khek Noi, is impoverished, and the villagers are poorly educated." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "9",
+            "data_file": "data/texts.json",
+            "stimuli": "What irritates you about other people, and how do you deal with it? \n\nGive me an example of a time you did something wrong." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "7",
+            "data_file": "data/texts.json",
+            "stimuli": "No One Likes Being Single? \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "11",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where you had to deal with conflict on the job. \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "12",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nHow did you handle it?" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "10",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. \n\nGlue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "14",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this with the core of my being—and I desperately wanted my high school students to hear this truth—I said most of this to my shoes. Because I knew this wasn't a point of view I'm supposed to have, especially in the Church. \n\nI laughed it off, but I was more hurt than I realized. Driving home, I kept thinking, You don't get to tell me how I feel. You don't get to tell me what I can and can't like. I wasn't angry at my friend, but at society. Because here's a shocker: I like being single." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "15",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. How did you handle it? \n\nIf you were at a business lunch and you ordered a rare steak and they brought it to you well done, what would you do? Please elaborate in the space provided." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "13",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "17",
+            "data_file": "data/texts.json",
+            "stimuli": "As the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six. \n\nI still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there's simply no denying it, Krysti, no one likes being single." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "18",
+            "data_file": "data/texts.json",
+            "stimuli": "I still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there's simply no denying it, Krysti, no one likes being single. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "16",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle a situation if you were required to finish multiple tasks by the end of the day, and there was no conceivable way that you could finish them. \n\nSpongeBob SquarePants is a cute, cuddly, yellow, well-dressed sea sponge who is optimistic, friendly, nice, happy, loyal, funny, hard-woking, outgoing, selfless, sweet, innocent, forgiving, and very good-natured, and loves to have fun and silly. In a variety of episodes, he is seen as fairly intelligent and very capable, even though his silliness and his naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "2",
+            "data_file": "data/texts.json",
+            "stimuli": "The 17,000-strong village, called Khek Noi, \n\nwhere most residents are of the Hmong ethnic minority" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "3",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this \n\nI knew this wasn't a point of view I'm supposed to have" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "1",
+            "data_file": "data/texts.json",
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow, \n\nwhich shows that he is an overall very likable person" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "5",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle \n\noperating out of a concrete building located next to a graveyard" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "6",
+            "data_file": "data/texts.json",
+            "stimuli": "Amid these sad stories, \n\nhe proves to be very likable and a good sponge to have as a friend or to talk to." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "4",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where \n\nhis naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "8",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nThe 17,000-strong village, called Khek Noi, is impoverished, and the villagers are poorly educated." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "9",
+            "data_file": "data/texts.json",
+            "stimuli": "What irritates you about other people, and how do you deal with it? \n\nGive me an example of a time you did something wrong." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "7",
+            "data_file": "data/texts.json",
+            "stimuli": "No One Likes Being Single? \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "11",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where you had to deal with conflict on the job. \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "12",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nHow did you handle it?" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "10",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. \n\nGlue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "15",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. How did you handle it? \n\nIf you were at a business lunch and you ordered a rare steak and they brought it to you well done, what would you do? Please elaborate in the space provided." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "13",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "14",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this with the core of my being—and I desperately wanted my high school students to hear this truth—I said most of this to my shoes. Because I knew this wasn't a point of view I'm supposed to have, especially in the Church. \n\nI laughed it off, but I was more hurt than I realized. Driving home, I kept thinking, You don't get to tell me how I feel. You don't get to tell me what I can and can't like. I wasn't angry at my friend, but at society. Because here's a shocker: I like being single." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "18",
+            "data_file": "data/texts.json",
+            "stimuli": "I still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there's simply no denying it, Krysti, no one likes being single. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "16",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle a situation if you were required to finish multiple tasks by the end of the day, and there was no conceivable way that you could finish them. \n\nSpongeBob SquarePants is a cute, cuddly, yellow, well-dressed sea sponge who is optimistic, friendly, nice, happy, loyal, funny, hard-woking, outgoing, selfless, sweet, innocent, forgiving, and very good-natured, and loves to have fun and silly. In a variety of episodes, he is seen as fairly intelligent and very capable, even though his silliness and his naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "17",
+            "data_file": "data/texts.json",
+            "stimuli": "As the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six. \n\nI still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there's simply no denying it, Krysti, no one likes being single." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "3",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this \n\nI knew this wasn't a point of view I'm supposed to have" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "1",
+            "data_file": "data/texts.json",
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow, \n\nwhich shows that he is an overall very likable person" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "2",
+            "data_file": "data/texts.json",
+            "stimuli": "The 17,000-strong village, called Khek Noi, \n\nwhere most residents are of the Hmong ethnic minority" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "6",
+            "data_file": "data/texts.json",
+            "stimuli": "Amid these sad stories, \n\nhe proves to be very likable and a good sponge to have as a friend or to talk to." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "4",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where \n\nhis naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "5",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle \n\noperating out of a concrete building located next to a graveyard" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "9",
+            "data_file": "data/texts.json",
+            "stimuli": "What irritates you about other people, and how do you deal with it? \n\nGive me an example of a time you did something wrong." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "7",
+            "data_file": "data/texts.json",
+            "stimuli": "No One Likes Being Single? \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "8",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nThe 17,000-strong village, called Khek Noi, is impoverished, and the villagers are poorly educated." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "12",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nHow did you handle it?" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "10",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. \n\nGlue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "11",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where you had to deal with conflict on the job. \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "15",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. How did you handle it? \n\nIf you were at a business lunch and you ordered a rare steak and they brought it to you well done, what would you do? Please elaborate in the space provided." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "13",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Within Window",
+            "trialID": "14",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this with the core of my being—and I desperately wanted my high school students to hear this truth—I said most of this to my shoes. Because I knew this wasn't a point of view I'm supposed to have, especially in the Church. \n\nI laughed it off, but I was more hurt than I realized. Driving home, I kept thinking, You don't get to tell me how I feel. You don't get to tell me what I can and can't like. I wasn't angry at my friend, but at society. Because here's a shocker: I like being single." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "18",
+            "data_file": "data/texts.json",
+            "stimuli": "I still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there's simply no denying it, Krysti, no one likes being single. \n\nAs the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "16",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle a situation if you were required to finish multiple tasks by the end of the day, and there was no conceivable way that you could finish them. \n\nSpongeBob SquarePants is a cute, cuddly, yellow, well-dressed sea sponge who is optimistic, friendly, nice, happy, loyal, funny, hard-woking, outgoing, selfless, sweet, innocent, forgiving, and very good-natured, and loves to have fun and silly. In a variety of episodes, he is seen as fairly intelligent and very capable, even though his silliness and his naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "sources": "Across Multiple",
+            "trialID": "17",
+            "data_file": "data/texts.json",
+            "stimuli": "As the transit point in the drug trade between the Golden Triangle and Bangkok, the village has different drugs circulating among the population, including among its youth. Glue-sniffing is rampant, snaring children as young as six. \n\nI still remember sitting in Panera Bread chatting about relationships when my friend said casually, as though there's simply no denying it, Krysti, no one likes being single." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "3",
+            "data_file": "data/texts.json",
+            "stimuli": "Even though I believed this \n\nI knew this wasn't a point of view I'm supposed to have" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "1",
+            "data_file": "data/texts.json",
+            "stimuli": "SpongeBob SquarePants is a cute, cuddly, yellow, \n\nwhich shows that he is an overall very likable person" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Within Window",
+            "trialID": "2",
+            "data_file": "data/texts.json",
+            "stimuli": "The 17,000-strong village, called Khek Noi, \n\nwhere most residents are of the Hmong ethnic minority" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "6",
+            "data_file": "data/texts.json",
+            "stimuli": "Amid these sad stories, \n\nhe proves to be very likable and a good sponge to have as a friend or to talk to." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "4",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where \n\nhis naive and annoying traits cause him to seem less intelligent than he truly is." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "sources": "Across Multiple",
+            "trialID": "5",
+            "data_file": "data/texts.json",
+            "stimuli": "Describe how you would handle \n\noperating out of a concrete building located next to a graveyard" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "9",
+            "data_file": "data/texts.json",
+            "stimuli": "What irritates you about other people, and how do you deal with it? \n\nGive me an example of a time you did something wrong." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "7",
+            "data_file": "data/texts.json",
+            "stimuli": "No One Likes Being Single? \n\nI laughed it off, but I was more hurt than I realized." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Within Window",
+            "trialID": "8",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nThe 17,000-strong village, called Khek Noi, is impoverished, and the villagers are poorly educated." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "12",
+            "data_file": "data/texts.json",
+            "stimuli": "In a remote village in Phetchabun, a northern Thai province, where most residents are of the Hmong ethnic minority, life is hard and occasionally dark. \n\nHow did you handle it?" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "10",
+            "data_file": "data/texts.json",
+            "stimuli": "Give me an example of a time you did something wrong. \n\nGlue-sniffing is rampant, snaring children as young as six." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "sources": "Across Multiple",
+            "trialID": "11",
+            "data_file": "data/texts.json",
+            "stimuli": "Tell me about a time where you had to deal with conflict on the job. \n\nI laughed it off, but I was more hurt than I realized." 
+        }             
+    ]
+}
