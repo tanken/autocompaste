@@ -62,7 +62,7 @@
                     <div id="stimuli" class="alert alert-danger js-expt-stimuli">This is a SAMPLE text</div>
                     <p class="start">When you're ready, please click button to start the experiment.</p>
                     <button class="btn btn-primary btn-lg start" onclick="start()">Start Experiment</button><br>
-                    <button class="btn btn-primary btn-lg" onclick="next()" id="continue" style="visibility:hidden">Next Task</button> <br>
+                    <button class="btn btn-primary btn-lg" onclick="next()" id="next" style="visibility:hidden">Next Task</button> <br>
                     <!--<button class="btn btn-primary btn-lg" onclick="startPop()">test</button>-->
                 </div>
                 <div id="autocompaste" class="col-sm-9">
@@ -75,13 +75,13 @@
             <h1>You have just completed <br>the <span class="js-expt-technique"></span> technique of Block #<span id="specialMessage"></span></h1>
             <h2>We'll now take a SHORT BREAK, <span style="color: red"><br>please do not leave this screen!</span></h2><br />
             You have <span id="countdown">30</span> seconds left.
-            <button class="btn btn-primary btn-lg" onclick="continueBlock()" id="next" style="visibility:hidden">Continue</button>
+            <button class="btn btn-primary btn-lg" onclick="continueBlock()" id="continue" style="visibility:hidden">Continue</button>
         </div>
 
         <div style="display: none; padding: 10px; text-align: center; position: relative; top: 20%;" id="exit_content2">
             <h1>You have just completed <br>all 36 trials in Block #<span id="specialMessage"></span></h1>
             <h2>Press <span style="color: red">START</span> to continue the next block</h2><br />
-            <button class="btn btn-primary btn-lg" onclick="startNewBlock()" id="next" >START</button>
+            <button class="btn btn-primary btn-lg" onclick="startNewBlock()" id="start" >START</button>
         </div>
 
         <script src="js/vendor/jquery-1.11.2.min.js"></script>
@@ -257,7 +257,7 @@
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);*/
-                    $("#continue").css('visibility','visible');
+                    $("#next").css('visibility','visible');
                 } else {
                     seconds--;
                 }
