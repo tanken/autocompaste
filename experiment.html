@@ -80,7 +80,7 @@
 
         <div style="display: none; padding: 10px; text-align: center; position: relative; top: 20%;" id="exit_content2">
             <h1>You have just completed <br>all 36 trials in Block #<span id="specialMessage"></span></h1>
-            <h2>Press <span style="color: red">START</span> to continue the next block</h2><br />
+            <h2>Press <span style="color: red">START</span> to continue <span id="specialMessage2">the next block</span></h2><br />
             <button class="btn btn-primary btn-lg" onclick="startNewBlock()" id="start" >START</button>
         </div>
 
@@ -166,6 +166,7 @@
                 } else if(isBlock == 0 && currentTrial != 0 && Math.floor(currentTrial/36) != 3) {
                     
                     $('#specialMessage').text(Math.floor(currentTrial/36));
+                    $('#specialMessage2').text(Math.floor(currentTrial/36)+1);
                     startPopBlock();
 
                 } else {
@@ -239,7 +240,7 @@
                 var minutes = Math.round((seconds - 30)/60);
                 var remainingSeconds = seconds % 60;
                 if (minutes < 1 && remainingSeconds < 11) {
-                    remainingSeconds = "0" + remainingSeconds; 
+                    if(remainingSeconds != 10) remainingSeconds = "0" + remainingSeconds; 
                     document.getElementById('countdown').style.fontWeight = 'bold'; 
                     document.getElementById('countdown').style.color = 'red'; 
                 } else {
