@@ -74,7 +74,7 @@
         <div style="display: none; padding: 10px; text-align: center; position: relative; top: 20%;" id="exit_content">
             <h1>You have just completed <br>the <span class="js-expt-technique"></span> technique of Block #<span id="specialMessage"></span></h1>
             <h2>We'll now take a SHORT BREAK, <span style="color: red"><br>please do not leave this screen!</span></h2><br />
-            <p>You have <span id="countdown">30</span> seconds left.</p>
+            <p id="counter">You have <span id="countdown">30</span> seconds left.</p>
             <button class="btn btn-primary btn-lg" onclick="continueBlock()" id="continue" style="visibility:hidden">Continue</button>
         </div>
 
@@ -166,7 +166,7 @@
                 } else if(isBlock == 0 && currentTrial != 0 && Math.floor(currentTrial/36) != 3) {
                     
                     $('#specialMessage').text(Math.floor(currentTrial/36));
-                    $('#specialMessage2').text("with Block #" + Math.floor(currentTrial/36)+1);
+                    $('#specialMessage2').text("with Block #" + Math.floor(currentTrial/36)+int(1));
                     startPopBlock();
 
                 } else {
@@ -259,6 +259,7 @@
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);*/
                     $("#continue").css('visibility','visible');
+                    $('#counter').hide();
                 } else {
                     seconds--;
                 }
