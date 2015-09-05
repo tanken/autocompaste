@@ -166,7 +166,7 @@
                 } else if(isBlock == 0 && currentTrial != 0 && Math.floor(currentTrial/36) != 3) {
                     
                     $('#specialMessage').text(Math.floor(currentTrial/36));
-                    $('#specialMessage2').text(Math.floor(currentTrial/36)+1);
+                    $('#specialMessage2').text("with Block #" + Math.floor(currentTrial/36)+1);
                     startPopBlock();
 
                 } else {
