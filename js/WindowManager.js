@@ -232,12 +232,61 @@ var WindowManager = (function () {
         return false;
       }
 
-      // Fetch the window structure and set the title.
+      // Fetch the window structure and set the prompter.
       var win_struct = privates.windows[name].struct;
       $(win_struct)
         .find('.modal-title')
         .empty()
         .append(title);
+
+      return true;
+    };
+
+    /**
+     * Sets the title of a window identified by name.
+     *
+     * All parameters are required. If the window does not exist, or if any of
+     * the parameters are not valid, then this function returns false.
+     *
+     * @param {String} name     The name of the window
+     * @param {String} prompter The prompter to be set
+     *
+     * @return {Boolean} Returns true on success.
+     */
+    this.setWindowPrompter = function setWindowPrompter (name, prompter) {
+      // Check for name.
+      if (name == undefined) {
+        console.error("WindowManager.setWindowPrompter: name must be given");
+        return false;
+      }
+
+      if (typeof name != 'string' && !(name instanceof String)) {
+        console.error("WindowManager.setWindowPrompter: name must be a string");
+        return false;
+      }
+
+      // Check for title.
+      if (prompter == undefined) {
+        console.error("WindowManager.setWindowPrompter: prompter must be given");
+        return false;
+      }
+
+      if (typeof prompter != 'string' && !(prompter instanceof String)) {
+        console.error("WindowManager.setWindowPrompter: prompter must be a string");
+        return false;
+      }
+
+      if (!privates.windows[name]) {
+        console.error("WindowManager.setWindowPrompter: Window does not exist");
+        return false;
+      }
+
+      // Fetch the window structure and set the title.
+      var win_struct = privates.windows[name].struct;
+      $(win_struct)
+        .find('.modal-prompter')
+        .empty()
+        .append(prompter);
 
       return true;
     };
@@ -667,7 +716,9 @@ var WindowManager = (function () {
               .append($(document.createElement('h4'))
                   .addClass('modal-title')))
           .append($(document.createElement('div'))
-              .addClass('modal-body')));
+              .addClass('modal-body'))
+          .append($(document.createElement('div'))
+              .addClass('modal-prompter')));
 
       $(privates.display_element).append(win);
       return win[0];
