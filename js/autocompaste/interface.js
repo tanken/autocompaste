@@ -122,7 +122,7 @@ AutoComPaste.Interface = (function () {
                             .addClass('autocompaste-textarea')
                             .attr({
                               rows: 10,
-                              cols: 40
+                              cols: 46        // Set Text Editor Size
                             });
 
         //  For ACP mode, engine is passed into the interface. 
@@ -138,9 +138,9 @@ AutoComPaste.Interface = (function () {
         }
 
         privates.wm.createWindow("text_editor");
-        privates.wm.setWindowTitle("text_editor", "Text Editor La");
+        privates.wm.setWindowTitle("text_editor", "Text Editor");
         privates.wm.setWindowContent('text_editor', acp_textarea);
-        privates.wm.setWindowPrompter("text_editor", "Hit <b>Esc</b> to exit <i>AutoComPaste mode</i>.");
+        privates.wm.setWindowPrompter("text_editor", "After entering Source 1, press <b>Esc</b>+<b>Enter</b> before entering Source 2.");
         acp_textarea.focus();
 
         // Dispatch an event.
