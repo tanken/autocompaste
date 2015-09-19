@@ -140,7 +140,7 @@ AutoComPaste.Interface = (function () {
         privates.wm.createWindow("text_editor");
         privates.wm.setWindowTitle("text_editor", "Text Editor");
         privates.wm.setWindowContent('text_editor', acp_textarea);
-        privates.wm.setWindowPrompter("text_editor", "After entering Source 1, hit <b style=\"font-size:15px; color:red;\">Alt</b>, then <b style=\"font-size:15px; color:red;\">Enter</b></span> before inputting Source 2.");
+        privates.wm.setWindowPrompter("text_editor", "After entering Source 1, hit <b style=\"font-size:15px; color:red;\">Esc</b>, then <b style=\"font-size:15px; color:red;\">Enter</b></span> before inputting Source 2.");
         acp_textarea.focus();
 
         // Dispatch an event.
