@@ -284,7 +284,7 @@ var WindowManager = (function () {
       // Fetch the window structure and set the title.
       var win_struct = privates.windows[name].struct;
       $(win_struct)
-        .find('.modal-prompter')
+        .find('.modal-footer')
         .empty()
         .append(prompter);
 
@@ -718,7 +718,7 @@ var WindowManager = (function () {
           .append($(document.createElement('div'))
               .addClass('modal-body'))
           .append($(document.createElement('div'))
-              .addClass('modal-prompter')));
+              .addClass('modal-footer')));
 
       $(privates.display_element).append(win);
       return win[0];
