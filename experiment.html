@@ -142,7 +142,8 @@
                     }*/
 
                     //Remove additional line breaks that is included into stimuli for multiple sources
-                    var stimuli_edit = stimuli.replace(/(\r\n|\n|\r|\n\n)/gm,"");
+                    //var stimuli_edit = stimuli.replace(/(\r\n|\n|\r|\n\n)/gm,"");
+                    var stimuli_edit = stimuli.replace(/(\n\n)/gm,"");
                  
                     //var similarity = stimuli_edit === userResponse ? 1 : 0;
                     var accuracy = similar_text(stimuli_edit, userResponse, 1);
