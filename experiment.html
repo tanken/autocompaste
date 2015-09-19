@@ -56,6 +56,10 @@
                                 <td>Trial</td>
                                 <td><span class="js-expt-current-trial"></span>/<span class="js-expt-num-trials">108</span></td>
                             </tr>
+                            <tr>
+                                <td>Trial</td>
+                                <td><span class="js-expt-current-block">1</span>/3</span></td>
+                            </tr>
                         </tbody>
                     </table>
                     <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> using the <b><span class="js-expt-technique">AUTOCOMPASTE</span></b> technique from one of the open windows.</p>
@@ -111,6 +115,7 @@
                             'Accuracy'];
             var trialData = [];
             var pid;
+            var thisBlock = 1;
 
             function next () {
                 var halfway = +(currentTrial%18);
@@ -297,6 +302,8 @@
                 ACPToolKit.presentTrial(trialsData[currentTrial]);
                 currentTrial += 1;
                 $('.js-expt-current-trial').text(currentTrial);
+                thisBlock += 1;
+                $('.js-expt-current-block').text(thisBlock);
             }
 
             function continueBlock() {
