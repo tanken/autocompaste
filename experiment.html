@@ -106,7 +106,7 @@
             var currentTrial;
             var totalNumberOfTrials;
             var headers = ['Participant ID', 'Technique', 'Granularity', 'Sources',
-                            'Trial No', 'Trial ID', 'Stimuli', 'User Response', 
+                            'Trial No', 'Trial ID', 'Stimuli Source 1', 'Stimuli Source 2', 'User Response', 
                             'Trial Start Time', 'Trial End Time', 'Trial Time', 
                             'Accuracy'];
             var trialData = [];
@@ -148,14 +148,14 @@
                  
                     //var similarity = stimuli_edit === userResponse ? 1 : 0;
                     var accuracy = similar_text(stimuli_edit, userResponse_edit, 1);
-                    console.log(accuracy); 
+                    //console.log(accuracy); 
 
                     var stimuli_parts = stimuli.split("\n\n");
-                    console.log(stimuli_parts[0]);
-                    console.log(stimuli_parts[1]);
+                    //console.log(stimuli_parts[0]);
+                    //console.log(stimuli_parts[1]);
 
                     var row = [pid, technique, granularity, sources, trialNum,
-                                trialID, stimuli, userResponse, trialStartTime,
+                                trialID, stimuli_parts[0], stimuli_parts[1], userResponse, trialStartTime,
                                 trialEndTime, trialDuration, accuracy];
                     trialData.push(row);
                 }
