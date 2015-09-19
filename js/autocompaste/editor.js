@@ -648,7 +648,7 @@ AutoComPaste.Editor = (function () {
         }
 
         // Escaping!
-        if (keydown_event.keyCode == 27) {
+        if (keydown_event.keyCode == 27 || keydown_event.keyCode == 18) {
           editor._hideCompletionList();
           return;
         }
