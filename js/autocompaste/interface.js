@@ -135,7 +135,11 @@ AutoComPaste.Interface = (function () {
             }
           }
           acp_textarea.autocompaste(privates.engine);
+          $('.article-window').addClass('no-select');
+        } else {
+          $('.article-window').removeClass('no-select'); 
         }
+
 
         privates.wm.createWindow("text_editor");
         privates.wm.setWindowTitle("text_editor", "Text Editor");
@@ -166,6 +170,7 @@ AutoComPaste.Interface = (function () {
         $(document.createElement('pre'))
           .append(privates.texts[text_title])
           .css('white-space', 'pre-word')
+          .addClass('article-window')
       );
 
       // Position the window randomly.
