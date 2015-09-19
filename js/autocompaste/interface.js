@@ -140,7 +140,7 @@ AutoComPaste.Interface = (function () {
         privates.wm.createWindow("text_editor");
         privates.wm.setWindowTitle("text_editor", "Text Editor La");
         privates.wm.setWindowContent('text_editor', acp_textarea);
-        privates.wm.setWindowFooter("text_editor", "Hit <b>Esc</b> to exit <i>AutoComPaste mode</i>.");
+        privates.wm.setWindowPrompter("text_editor", "Hit <b>Esc</b> to exit <i>AutoComPaste mode</i>.");
         acp_textarea.focus();
 
         // Dispatch an event.
