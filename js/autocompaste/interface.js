@@ -172,7 +172,7 @@ AutoComPaste.Interface = (function () {
       //
       // safety_bounds ensures that the window is at least some pixels within 
       // the boundaries of the display.
-      var safety_bounds = 120;
+      var safety_bounds = 180;
       privates.wm.moveWindowTo(text_title,
         Math.random() * (privates.wm.getDisplayWidth() - safety_bounds) + (safety_bounds / 2),
         Math.random() * (privates.wm.getDisplayHeight() - safety_bounds) + (safety_bounds / 2)
