@@ -145,7 +145,7 @@
                     //var stimuli_edit = stimuli.replace(/(\r\n|\n|\r|\n\n)/gm,"");
                     var stimuli_edit = stimuli.replace(/(\n\n)/gm,"");
                     var userResponse_edit = userResponse.replace(/(\r\n|\n|\r|\n\n)/gm,"");
-                 
+                    console.log(userResponse_edit);
                     //var similarity = stimuli_edit === userResponse ? 1 : 0;
                     var accuracy = similar_text(stimuli_edit, userResponse_edit, 1);
                     //console.log(accuracy); 
@@ -155,7 +155,7 @@
                     //console.log(stimuli_parts[1]);
 
                     var row = [pid, technique, granularity, sources, trialNum,
-                                trialID, stimuli_parts[0], stimuli_parts[1], userResponse, trialStartTime,
+                                trialID, stimuli_parts[0], stimuli_parts[1], userResponse_edit, trialStartTime,
                                 trialEndTime, trialDuration, accuracy];
                     trialData.push(row);
                 }
