@@ -143,11 +143,12 @@
 
                     //Remove additional line breaks that is included into stimuli for multiple sources
                     var stimuli_edit = stimuli.replace(/(\r\n|\n|\r|\n\n)/gm,"");
-console.log(stimuli_edit);
-console.log(userResponse);                    
+                 
                     //var similarity = stimuli_edit === userResponse ? 1 : 0;
                     var accuracy = similar_text(stimuli_edit, userResponse, 1);
 console.log(accuracy);  
+console.log(stimuli_edit);
+console.log(userResponse);   
                     var row = [pid, technique, granularity, sources, trialNum,
                                 trialID, stimuli, userResponse, trialStartTime,
                                 trialEndTime, trialDuration, accuracy];
